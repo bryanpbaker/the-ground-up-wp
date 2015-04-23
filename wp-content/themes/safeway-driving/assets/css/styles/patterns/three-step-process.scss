@@ -1,0 +1,19 @@
+// Three Step Process Styling
+
+
+.three-step-process{
+	background: $darkGray !important;
+	margin: 0 0 100px 0;
+	ul{
+		li{
+			padding-top: 20px;
+			h3{
+				color: $lightGray;
+			}
+			h5{
+				color: $yellow;
+				margin-bottom: 8px !important;
+			}
+		}
+	}
+}

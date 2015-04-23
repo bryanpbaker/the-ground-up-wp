@@ -1,0 +1,16 @@
+// ------------------------------------------------------------
+// Fonts
+//
+// Set base fonts for the site via @font-face.
+//
+//-----------------------------------------------
+
+@font-face {
+  font-family: 'Helvetica-Neue';
+  src: url('../font/helvetica-neue/helvetica-neue.eot');
+  src: url('../font/helvetica-neue/helvetica-neue.eot?#iefix') format('embedded-opentype'),
+       url('../font/helvetica-neue/helvetica-neue.woff') format('woff'),
+       url('../font/helvetica-neue/helvetica-neue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

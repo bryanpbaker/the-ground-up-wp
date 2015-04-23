@@ -1,0 +1,14 @@
+// ------------------------------------------------------------
+// Modals
+//
+// Style overrides for Bootstrap Modals
+// ------------------------------------------------------------
+
+.modal-content{
+	background: transparent;
+	margin-top: 150px !important;
+	
+	iframe{
+		width: 100%;
+	}
+}

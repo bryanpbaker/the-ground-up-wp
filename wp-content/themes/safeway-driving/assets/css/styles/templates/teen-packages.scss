@@ -1,0 +1,186 @@
+// ------------------------------------------------------------
+// Teen Packages Page
+//
+// Styling specific to the content area of the Teen Packages Page.
+// ------------------------------------------------------------
+// Slug: '/Teen-packages'
+// ------------------------------------------------------------
+.teen-packages{
+
+	.teen-packages__callout-section{
+		position: relative;
+		h3{
+			text-align: center;
+		}
+		.teen-packages__callout-section__hours-scale{
+			height: 40px;
+			padding: 0;
+			margin-top: 50px;
+
+			.hours{
+				height: 100%;
+				width: 20%;
+				padding: 0;
+				
+				img{
+					display: block;
+					margin: 0 auto;
+					position: relative;
+					transform: translateY(-50%);
+				}
+			}
+			.hours-scale-line{
+				width: 80%;
+				border: 0;
+				border-bottom: 3px dashed $yellow;
+				position: absolute;
+				left: 7.85%;
+				z-index: -1;
+			}
+			h5{
+				text-transform: capitalize !important;
+				font-size: 1.333rem !important;
+				position: absolute;
+
+				&.skilled-driver{
+					left: 12.650%;
+					top: 1.550em;
+				}
+				&.the-minimum{
+					right: 12.650%;
+					top: 1.550em;
+				}
+				@media(max-width: 991px){
+					&.skilled-driver{
+						top: 3.000em;
+						left: 5%;
+					}
+					&.the-minimum{
+						top: 3.000em;
+						right: 5%;
+					}
+				}
+			}
+			@media(max-width: 500px){
+				display: none;
+			}
+		}
+		.teen-packages__callout-section__dynamic-callout{
+			background: $darkGray;
+			text-align: center;
+			padding: 3%;
+			margin-top: 65px;
+			margin-bottom: 100px;
+
+			h2{
+				margin-bottom: 20px !important;
+				font-size: 4.000rem !important;
+				color: $yellow;
+			}
+			h6{
+				color: white;
+			}
+			p{
+				margin-top: 0 !important;
+				color: $lightGray;
+			}
+		}
+		.teen-packages__callout-section__dynamic-callout__content{
+			display: none;
+
+			&.active{
+				display: block;
+			}
+		}
+	}
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 25px solid $darkGray;
+
+	position: absolute;
+	bottom: 100%;
+
+	&.point-to-37{
+		left: 15.25%;	
+		@media(max-width: 991px){
+			left: 14.5%;
+		}
+	}
+	&.point-to-27{
+		left: 31.90%;	
+		@media(max-width: 991px){
+			left: 31.15%;
+		}
+	}
+	&.point-to-17{
+		left: 48.5%;
+		@media(max-width: 991px){
+			left: 47.75%;
+		}
+	}
+	&.point-to-10{
+		left: 65.25%;
+		@media(max-width: 991px){
+			left: 64.5%;
+		}
+	}	
+	&.point-to-7{
+		left: 82%;
+		@media(max-width: 991px){
+			left: 81.25%;
+		}
+	}
+}
+
+.teen-packages__state-minimum{
+	margin: 100px auto;
+	padding: 2% 4%;
+	background: $darkGray;
+	.left{
+		color: white;
+		p{
+			width: 80%;
+			color: $lightGray;
+		}
+	}
+	.right{
+		button{
+			transform: translateY(20%);
+			margin-top: 0;
+		}
+	}
+
+	@media (max-width: 991px){
+		padding: 10% 4%;
+		.left{
+			text-align: center;
+			p{
+				width: 100%;
+			}
+		}
+		.right{
+			button{
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 0 !important;
+				transform: translateY(0);
+			}
+		}
+	}
+}
+
+.teen-packages__all-packages-include{
+	margin-bottom: 50px;
+	h6{
+		font-family: 'Interstate Condensed';
+		text-align: center;
+	}
+	.lead{
+		font-family: 'Interstate Condensed';
+	}
+}

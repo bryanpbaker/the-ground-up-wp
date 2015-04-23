@@ -1,0 +1,1520 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Google Maps v6.0.26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-08-31 17:36:39+0000\n"
+"Last-Translator: patrick <patrick_jepsen@hotmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: base/classes/WPGM_templates.php:13
+#@ wp-google-maps
+msgid "Welcome to"
+msgstr "Velkommen til"
+
+#: base/classes/WPGM_templates.php:15
+#@ wp-google-maps
+msgid "Amazing maps. Simple interface. Powerful functionality. World Class Support."
+msgstr "Fantastiske kort. Simpel interface. Kraftfuld funktionalitet. Verdensklasse support."
+
+#: base/classes/WPGM_templates.php:17
+#@ wp-google-maps
+msgid "What's new?"
+msgstr "Hvad er nyt?"
+
+#: base/classes/WPGM_templates.php:21
+#@ wp-google-maps
+msgid "Store Locator"
+msgstr "Find butik"
+
+#: base/classes/WPGM_templates.php:22
+#@ wp-google-maps
+msgid "Let users search for products, branches and stores near them"
+msgstr "Lad brugere søge efter produkter, afdelinger og butikker nær dem."
+
+#: base/classes/WPGM_templates.php:26
+#: wpGoogleMaps.php:3973
+#@ wp-google-maps
+msgid "Polygons"
+msgstr "Polygoner"
+
+#: base/classes/WPGM_templates.php:27
+#@ wp-google-maps
+msgid "Create service areas or coverage maps with polygons"
+msgstr "Lav service områder eller dæknings kort med polygoner"
+
+#: base/classes/WPGM_templates.php:31
+#: wpGoogleMaps.php:3852
+#: wpGoogleMaps.php:3978
+#@ wp-google-maps
+msgid "Polylines"
+msgstr "polylinier"
+
+#: base/classes/WPGM_templates.php:32
+#@ wp-google-maps
+msgid "Create custom routes or outlines using polylines"
+msgstr "Lav brugerdefinerede ruter eller omrids ved hjælp af polylinier"
+
+#: base/classes/WPGM_templates.php:44
+#@ wp-google-maps
+msgid "How did you find out about us?"
+msgstr "Hvordan hørte du om os?"
+
+#: base/classes/WPGM_templates.php:51
+#@ wp-google-maps
+msgid "WordPress.org plugin repository"
+msgstr "WordPress.org plugin arkiv"
+
+#: base/classes/WPGM_templates.php:52
+#@ wp-google-maps
+msgid "What search term did you use?"
+msgstr "Hvilket søgeord brugte du?"
+
+#: base/classes/WPGM_templates.php:56
+#@ wp-google-maps
+msgid "Google or other search engine"
+msgstr "Google eller en anden søgemaskine"
+
+#: base/classes/WPGM_templates.php:60
+#@ wp-google-maps
+msgid "Friend recommendation"
+msgstr "Anbefal til en ven"
+
+#: base/classes/WPGM_templates.php:64
+#@ wp-google-maps
+msgid "Other"
+msgstr "Andet"
+
+#: base/classes/WPGM_templates.php:65
+#@ wp-google-maps
+msgid "Please explain"
+msgstr "Venligst uddyb"
+
+#: base/classes/WPGM_templates.php:87
+#@ wp-google-maps
+msgid "New to WP Google Maps?"
+msgstr "Ny bruger af WP Google Maps?"
+
+#: base/classes/WPGM_templates.php:88
+#@ wp-google-maps
+msgid "You may want to"
+msgstr "Du ønsker måske"
+
+#: base/classes/WPGM_templates.php:88
+#@ wp-google-maps
+msgid "review our documentation"
+msgstr "Gennemgå vores dokumentation"
+
+#: base/classes/WPGM_templates.php:88
+#@ wp-google-maps
+msgid "before you get started. If you're a tech-savvy individual, you may skip this step."
+msgstr "Før du går i gang. Hvis du er teknisk anlagt, kan du springe dette trin over."
+
+#: base/classes/WPGM_templates.php:91
+#@ wp-google-maps
+msgid "Help me!"
+msgstr "Hjælp mig!"
+
+#: base/classes/WPGM_templates.php:92
+#@ wp-google-maps
+msgid "Visit our"
+msgstr "Besøg vores"
+
+#: base/classes/WPGM_templates.php:92
+#@ wp-google-maps
+msgid "Support Forum"
+msgstr "Support Forum"
+
+#: base/classes/WPGM_templates.php:92
+#@ wp-google-maps
+msgid "for quick and friendly help. We'll answer your request within 24hours."
+msgstr "For hurtig og venlig hjælp. Vi besvarer dit spørgsmål indenfor 24 timer."
+
+#: base/classes/WPGM_templates.php:95
+#@ wp-google-maps
+msgid "Feedback"
+msgstr "Feedback"
+
+#: base/classes/WPGM_templates.php:96
+#@ wp-google-maps
+msgid "We need you to help us make this plugin better."
+msgstr "Vi har brug for din hjælp til at gøre dette plugin bedre."
+
+#: base/classes/WPGM_templates.php:96
+#@ wp-google-maps
+msgid "Send us your feedback"
+msgstr "Send os din feedback"
+
+#: base/classes/WPGM_templates.php:96
+#@ wp-google-maps
+msgid "and we'll act on it as soon as humanly possible."
+msgstr "så vil vi reagere så hurtigt som muligt."
+
+#: base/classes/WPGM_templates.php:102
+#@ wp-google-maps
+msgid "OK! Let's start"
+msgstr "OK! lad os komme igang"
+
+#: base/includes/wp-google-maps-polygons.php:25
+#@ wp-google-maps
+msgid "Add a Polygon"
+msgstr "Tilføj en polygon"
+
+#: base/includes/wp-google-maps-polygons.php:31
+#: base/includes/wp-google-maps-polygons.php:112
+#: base/includes/wp-google-maps-polygons.php:540
+#: base/includes/wp-google-maps-polylines.php:31
+#: base/includes/wp-google-maps-polylines.php:112
+#: base/includes/wp-google-maps-polylines.php:557
+#@ wp-google-maps
+msgid "Name"
+msgstr "Navn"
+
+#: base/includes/wp-google-maps-polygons.php:34
+#: base/includes/wp-google-maps-polygons.php:115
+#: wpGoogleMaps.php:3193
+#: wpGoogleMaps.php:3254
+#: wpGoogleMaps.php:3692
+#: wpGoogleMaps.php:3939
+#: wpGoogleMaps.php:4294
+#: wpGoogleMaps.php:4313
+#@ wp-google-maps
+msgid "Title"
+msgstr "Titel"
+
+#: base/includes/wp-google-maps-polygons.php:34
+#: base/includes/wp-google-maps-polygons.php:52
+#: base/includes/wp-google-maps-polygons.php:55
+#: base/includes/wp-google-maps-polygons.php:58
+#: base/includes/wp-google-maps-polygons.php:115
+#: base/includes/wp-google-maps-polygons.php:133
+#: base/includes/wp-google-maps-polygons.php:136
+#: base/includes/wp-google-maps-polygons.php:139
+#@ wp-google-maps
+msgid "Pro version only"
+msgstr "Kun muligt i Pro versionen"
+
+#: base/includes/wp-google-maps-polygons.php:34
+#: base/includes/wp-google-maps-polygons.php:115
+#: wpGoogleMaps.php:3162
+#@ wp-google-maps
+msgid "Pro Version"
+msgstr "Pro Version"
+
+#: base/includes/wp-google-maps-polygons.php:34
+#: base/includes/wp-google-maps-polygons.php:115
+#@ wp-google-maps
+msgid "Get the Pro add-on"
+msgstr "Få Pro tilføjelsen"
+
+#: base/includes/wp-google-maps-polygons.php:37
+#: base/includes/wp-google-maps-polygons.php:118
+#: wpGoogleMaps.php:3258
+#: wpGoogleMaps.php:4299
+#@ wp-google-maps
+msgid "Link"
+msgstr "Link"
+
+#: base/includes/wp-google-maps-polygons.php:40
+#: base/includes/wp-google-maps-polygons.php:121
+#: base/includes/wp-google-maps-polylines.php:39
+#: base/includes/wp-google-maps-polylines.php:120
+#@ wp-google-maps
+msgid "Line Color"
+msgstr "Linie farve"
+
+#: base/includes/wp-google-maps-polygons.php:43
+#: base/includes/wp-google-maps-polygons.php:124
+#@ wp-google-maps
+msgid "Line Opacity"
+msgstr "Linie tykkelse"
+
+#: base/includes/wp-google-maps-polygons.php:46
+#: base/includes/wp-google-maps-polygons.php:127
+#@ wp-google-maps
+msgid "Fill Color"
+msgstr "fyld farve"
+
+#: base/includes/wp-google-maps-polygons.php:49
+#: base/includes/wp-google-maps-polygons.php:130
+#: base/includes/wp-google-maps-polylines.php:47
+#: base/includes/wp-google-maps-polylines.php:128
+#@ wp-google-maps
+msgid "Opacity"
+msgstr "Opacitet"
+
+#: base/includes/wp-google-maps-polygons.php:52
+#: base/includes/wp-google-maps-polygons.php:133
+#@ wp-google-maps
+msgid "On Hover Line Color"
+msgstr "linie farve ved hover"
+
+#: base/includes/wp-google-maps-polygons.php:55
+#: base/includes/wp-google-maps-polygons.php:136
+#@ wp-google-maps
+msgid "On Hover Fill Color"
+msgstr "fyld farve ved hover"
+
+#: base/includes/wp-google-maps-polygons.php:58
+#: base/includes/wp-google-maps-polygons.php:139
+#@ wp-google-maps
+msgid "On Hover Opacity"
+msgstr "opacitet ved hover"
+
+#: base/includes/wp-google-maps-polygons.php:64
+#@ wp-google-maps
+msgid "Click on the map to insert a vertex."
+msgstr "klik på kortet for at tilføje et toppunkt"
+
+#: base/includes/wp-google-maps-polygons.php:65
+#@ wp-google-maps
+msgid "Click on a vertex to remove it."
+msgstr "klik på et toppunkt for at fjerne det"
+
+#: base/includes/wp-google-maps-polygons.php:66
+#@ wp-google-maps
+msgid "Drag a vertex to move it."
+msgstr "Træk i et toppunkt for at flytte det"
+
+#: base/includes/wp-google-maps-polygons.php:74
+#: base/includes/wp-google-maps-polygons.php:155
+#@ wp-google-maps
+msgid "Save Polygon"
+msgstr "Gem polygon"
+
+#: base/includes/wp-google-maps-polygons.php:105
+#@ wp-google-maps
+msgid "Edit Polygon"
+msgstr "rediger polygon"
+
+#: base/includes/wp-google-maps-polygons.php:539
+#: base/includes/wp-google-maps-polylines.php:556
+#: wpGoogleMaps.php:3192
+#: wpGoogleMaps.php:3251
+#: wpGoogleMaps.php:3691
+#: wpGoogleMaps.php:4062
+#: wpGoogleMaps.php:4292
+#@ wp-google-maps
+msgid "ID"
+msgstr "ID"
+
+#: base/includes/wp-google-maps-polygons.php:541
+#: base/includes/wp-google-maps-polylines.php:558
+#: wpGoogleMaps.php:4300
+#@ wp-google-maps
+msgid "Action"
+msgstr "udfør"
+
+#: base/includes/wp-google-maps-polygons.php:567
+#: base/includes/wp-google-maps-polylines.php:584
+#: wpGoogleMaps.php:3213
+#@ wp-google-maps
+msgid "Edit"
+msgstr "rediger"
+
+#: base/includes/wp-google-maps-polygons.php:568
+#@ wp-google-maps
+msgid "Delete this polygon"
+msgstr "slet denne polygon"
+
+#: base/includes/wp-google-maps-polylines.php:25
+#@ wp-google-maps
+msgid "Add a Polyline"
+msgstr "tiføj en polylinie"
+
+#: base/includes/wp-google-maps-polylines.php:55
+#: base/includes/wp-google-maps-polylines.php:136
+#@ wp-google-maps
+msgid "Line Thickness"
+msgstr "linie tykkelse"
+
+#: base/includes/wp-google-maps-polylines.php:74
+#: base/includes/wp-google-maps-polylines.php:155
+#@ wp-google-maps
+msgid "Save Polyline"
+msgstr "gem polylinie"
+
+#: base/includes/wp-google-maps-polylines.php:105
+#@ wp-google-maps
+msgid "Edit Polyline"
+msgstr "rediger polylinie"
+
+#: base/includes/wp-google-maps-polylines.php:585
+#@ wp-google-maps
+msgid "Delete this polyline"
+msgstr "slet denne polylinie"
+
+#: wpGoogleMaps.php:330
+#@ wp-google-maps
+msgid "<strong>WP Google Maps cannot find the directory it uses to save marker data to. Please confirm that <em>"
+msgstr "<strong>WP Google Maps kan ikke finde den mappe den bruger til at gemme markør data i. Bekræft venligst at <em>"
+
+#: wpGoogleMaps.php:330
+#@ wp-google-maps
+msgid "</em>exists. Please also ensure that you assign file permissions of 755 (or 777) to this directory."
+msgstr "</em>eksisterer. Tjek også at du har givet en fil tilladelse på 755 (eller 777) til denne mappe."
+
+#: wpGoogleMaps.php:336
+#@ default
+msgid "Timthumb does not have 'write' permission for the cache directory. Please enable 'write' permissions (755 or 777) for "
+msgstr ""
+
+#: wpGoogleMaps.php:338
+#@ default
+msgid "in order for images to show up while using Timthumb. Please see "
+msgstr ""
+
+#: wpGoogleMaps.php:340
+#: wpGoogleMaps.php:4453
+#@ default
+msgid "this page"
+msgstr ""
+
+#: wpGoogleMaps.php:342
+#@ default
+msgid "for help on how to do it. Alternatively, you can disable the use of Timthumb in Maps->Settings"
+msgstr ""
+
+#: wpGoogleMaps.php:1821
+#: wpGoogleMaps.php:1831
+#: wpGoogleMaps.php:1836
+#@ default
+msgid "Could not save XML file"
+msgstr ""
+
+#: wpGoogleMaps.php:1948
+#@ wp-google-maps
+msgid "Error: The map ID"
+msgstr "Fejl: Kort ID"
+
+#: wpGoogleMaps.php:1948
+#@ wp-google-maps
+msgid "does not exist"
+msgstr "eksisterer ikke"
+
+#: wpGoogleMaps.php:2017
+#: wpGoogleMaps.php:3307
+#@ wp-google-maps
+msgid "ZIP / Address:"
+msgstr "post nr. / adresse:"
+
+#: wpGoogleMaps.php:2030
+#@ wp-google-maps
+msgid "Radius"
+msgstr "Radius"
+
+#: wpGoogleMaps.php:2036
+#@ wp-google-maps
+msgid "1mi"
+msgstr "1 mil"
+
+#: wpGoogleMaps.php:2037
+#@ wp-google-maps
+msgid "5mi"
+msgstr "5 mil"
+
+#: wpGoogleMaps.php:2038
+#@ wp-google-maps
+msgid "10mi"
+msgstr "10 mil"
+
+#: wpGoogleMaps.php:2039
+#@ wp-google-maps
+msgid "25mi"
+msgstr "25 mil"
+
+#: wpGoogleMaps.php:2040
+#@ wp-google-maps
+msgid "50mi"
+msgstr "50 mil"
+
+#: wpGoogleMaps.php:2041
+#@ wp-google-maps
+msgid "75mi"
+msgstr "75 mil"
+
+#: wpGoogleMaps.php:2042
+#@ wp-google-maps
+msgid "100mi"
+msgstr "100 mil"
+
+#: wpGoogleMaps.php:2043
+#@ wp-google-maps
+msgid "150mi"
+msgstr "150 mil"
+
+#: wpGoogleMaps.php:2044
+#@ wp-google-maps
+msgid "200mi"
+msgstr "200 mil"
+
+#: wpGoogleMaps.php:2045
+#@ wp-google-maps
+msgid "300mi"
+msgstr "300 mil"
+
+#: wpGoogleMaps.php:2047
+#@ wp-google-maps
+msgid "1km"
+msgstr "1km"
+
+#: wpGoogleMaps.php:2048
+#@ wp-google-maps
+msgid "5km"
+msgstr "5km"
+
+#: wpGoogleMaps.php:2049
+#@ wp-google-maps
+msgid "10km"
+msgstr "10km"
+
+#: wpGoogleMaps.php:2050
+#@ wp-google-maps
+msgid "25km"
+msgstr "25km"
+
+#: wpGoogleMaps.php:2051
+#@ wp-google-maps
+msgid "50km"
+msgstr "50km"
+
+#: wpGoogleMaps.php:2052
+#@ wp-google-maps
+msgid "75km"
+msgstr "75km"
+
+#: wpGoogleMaps.php:2053
+#@ wp-google-maps
+msgid "100km"
+msgstr "100km"
+
+#: wpGoogleMaps.php:2054
+#@ wp-google-maps
+msgid "150km"
+msgstr "150km"
+
+#: wpGoogleMaps.php:2055
+#@ wp-google-maps
+msgid "200km"
+msgstr "200km"
+
+#: wpGoogleMaps.php:2056
+#@ wp-google-maps
+msgid "300km"
+msgstr "300km"
+
+#: wpGoogleMaps.php:2065
+#: wpGoogleMaps.php:3953
+#: wpGoogleMaps.php:4295
+#: wpGoogleMaps.php:4314
+#@ wp-google-maps
+msgid "Category"
+msgstr "kategori"
+
+#: wpGoogleMaps.php:2072
+#@ wp-google-maps
+msgid "Search"
+msgstr "søg"
+
+#: wpGoogleMaps.php:2093
+#@ wp-google-maps
+msgid "Please note: <strong>WP Google Maps will not function correctly while using APC Object Cache.</strong> We have found that GoDaddy hosting packages automatically include this with their WordPress hosting packages. Please email GoDaddy and ask them to remove the object-cache.php from your wp-content/ directory."
+msgstr "OBS: <strong>WP Google Maps fungerer ikke ordentlig mens man bruger APC Object Cache. </strong> Vi har fundet ud af at GoDaddy automatisk tilføjer dette i deres Wordpress Hosting pakker. Send en email til GoDaddy og bed dem om at fjerne object-cache.php filen fra din wp-content/ mappe."
+
+#: wpGoogleMaps.php:2182
+#: wpGoogleMaps.php:2425
+#: wpGoogleMaps.php:2603
+#: wpGoogleMaps.php:2788
+#@ wp-google-maps
+msgid "Your settings have been saved."
+msgstr "Dine indstillinger er gemt"
+
+#: wpGoogleMaps.php:2206
+#: wpGoogleMaps.php:2632
+#@ wp-google-maps
+msgid "Your marker location has been saved."
+msgstr "Din markør er gemt"
+
+#: wpGoogleMaps.php:2217
+#: wpGoogleMaps.php:2272
+#@ wp-google-maps
+msgid "You cannot save a blank polygon"
+msgstr "du kan ikke gemme en blank polygon"
+
+#: wpGoogleMaps.php:2259
+#: wpGoogleMaps.php:2663
+#@ wp-google-maps
+msgid "Your polygon has been created."
+msgstr "din polygon er oprettet"
+
+#: wpGoogleMaps.php:2315
+#: wpGoogleMaps.php:2695
+#@ wp-google-maps
+msgid "Your polygon has been saved."
+msgstr "din polygon er gemt"
+
+#: wpGoogleMaps.php:2327
+#: wpGoogleMaps.php:2371
+#@ wp-google-maps
+msgid "You cannot save a blank polyline"
+msgstr "Du kan ikke gemme en blank polylinie"
+
+#: wpGoogleMaps.php:2358
+#: wpGoogleMaps.php:2726
+#@ wp-google-maps
+msgid "Your polyline has been created."
+msgstr "din polylinie er blev oprettet"
+
+#: wpGoogleMaps.php:2400
+#: wpGoogleMaps.php:2758
+#@ wp-google-maps
+msgid "Your polyline has been saved."
+msgstr "din poylinie er gemt"
+
+#: wpGoogleMaps.php:2456
+#: wpGoogleMaps.php:2460
+#@ wp-google-maps
+msgid "Thank you for your feedback!"
+msgstr "tak for din feedback!"
+
+#: wpGoogleMaps.php:2808
+#@ wp-google-maps
+msgid "Maps"
+msgstr "Kort"
+
+#: wpGoogleMaps.php:2810
+#@ wp-google-maps
+msgid "Categories"
+msgstr "Kategorier"
+
+#: wpGoogleMaps.php:2811
+#@ wp-google-maps
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: wpGoogleMaps.php:2813
+#@ wp-google-maps
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: wpGoogleMaps.php:2828
+#: wpGoogleMaps.php:2918
+#@ wp-google-maps
+msgid "Experiencing problems with the plugin?"
+msgstr "Oplever du problemer med dette plugin?"
+
+#: wpGoogleMaps.php:2828
+#: wpGoogleMaps.php:2918
+#@ wp-google-maps
+msgid "See the troubleshooting manual."
+msgstr "Se manualen"
+
+#: wpGoogleMaps.php:2828
+#@ wp-google-maps
+msgid "Or ask a question on our "
+msgstr "eller stil et spørgsmål på vores"
+
+#: wpGoogleMaps.php:2828
+#@ wp-google-maps
+msgid "Support forum."
+msgstr "support forum."
+
+#: wpGoogleMaps.php:2836
+#@ default
+msgid "There was a problem deleting the map."
+msgstr ""
+
+#: wpGoogleMaps.php:2840
+#@ wp-google-maps
+msgid "Delete your map"
+msgstr "slet dit kort"
+
+#: wpGoogleMaps.php:2840
+#@ wp-google-maps
+msgid "Are you sure you want to delete the map"
+msgstr "er du sikker på at du vil slette dette kort"
+
+#: wpGoogleMaps.php:2840
+#: wpGoogleMaps.php:2932
+#: wpGoogleMaps.php:3548
+#: wpGoogleMaps.php:3584
+#: wpGoogleMaps.php:3615
+#: wpGoogleMaps.php:3623
+#: wpGoogleMaps.php:3631
+#: wpGoogleMaps.php:3643
+#: wpGoogleMaps.php:3651
+#: wpGoogleMaps.php:3708
+#: wpGoogleMaps.php:3882
+#: wpGoogleMaps.php:3935
+#@ wp-google-maps
+msgid "Yes"
+msgstr "Ja"
+
+#: wpGoogleMaps.php:2840
+#: wpGoogleMaps.php:2932
+#: wpGoogleMaps.php:3547
+#: wpGoogleMaps.php:3558
+#: wpGoogleMaps.php:3585
+#: wpGoogleMaps.php:3616
+#: wpGoogleMaps.php:3624
+#: wpGoogleMaps.php:3632
+#: wpGoogleMaps.php:3644
+#: wpGoogleMaps.php:3652
+#: wpGoogleMaps.php:3707
+#: wpGoogleMaps.php:3881
+#: wpGoogleMaps.php:3934
+#@ wp-google-maps
+msgid "No"
+msgstr "Nej"
+
+#: wpGoogleMaps.php:2928
+#@ default
+msgid "There was a problem deleting the marker."
+msgstr ""
+
+#: wpGoogleMaps.php:2932
+#@ wp-google-maps
+msgid "Delete Marker"
+msgstr "Slet markør"
+
+#: wpGoogleMaps.php:2932
+#@ wp-google-maps
+msgid "Are you sure you want to delete this marker:"
+msgstr "Er du sikker på at du vil slette den markør:"
+
+#: wpGoogleMaps.php:2954
+#@ wp-google-maps
+msgid "WP Google Map Settings"
+msgstr "WP Google Map indstillinger"
+
+#: wpGoogleMaps.php:3030
+#: wpGoogleMaps.php:4836
+#@ wp-google-maps
+msgid "This folder does not exist. Please create it."
+msgstr "Denne mappe eksisterer ikke. Vær venlig at oprette den."
+
+#: wpGoogleMaps.php:3033
+#@ wp-google-maps
+msgid "File Permissions:"
+msgstr "Fil tilladelser:"
+
+#: wpGoogleMaps.php:3033
+#@ wp-google-maps
+msgid " - The plugin does not have write access to this folder. Please CHMOD this folder to 755 or 777, or change the location"
+msgstr "Pluginet har ikke skrive rettigheder til mappen. Vær venlig at CHMODe denne mappe til 755 eller 777, eller ændre lokationen"
+
+#: wpGoogleMaps.php:3050
+#: wpGoogleMaps.php:3432
+#@ default
+#@ wp-google-maps
+msgid "Map Settings"
+msgstr "Kort indstillinger"
+
+#: wpGoogleMaps.php:3053
+#@ wp-google-maps
+msgid "General Map Settings"
+msgstr "generelle Kort indstillinger"
+
+#: wpGoogleMaps.php:3055
+#@ default
+msgid "Disable StreetView"
+msgstr ""
+
+#: wpGoogleMaps.php:3056
+#@ default
+msgid "Disable Zoom Controls"
+msgstr ""
+
+#: wpGoogleMaps.php:3057
+#@ default
+msgid "Disable Pan Controls"
+msgstr ""
+
+#: wpGoogleMaps.php:3058
+#@ default
+msgid "Disable Map Type Controls"
+msgstr ""
+
+#: wpGoogleMaps.php:3059
+#@ wp-google-maps
+msgid "Disable Mouse Wheel Zoom"
+msgstr "Deaktiver Mouse Wheel Zoom"
+
+#: wpGoogleMaps.php:3060
+#@ wp-google-maps
+msgid "Disable Mouse Dragging"
+msgstr "Deaktiver Mouse dragging"
+
+#: wpGoogleMaps.php:3061
+#@ wp-google-maps
+msgid "Disable Mouse Double Click Zooming"
+msgstr "Deaktiver Mouse Double Click Zooming"
+
+#: wpGoogleMaps.php:3066
+#@ wp-google-maps
+msgid "Open Marker InfoWindows by"
+msgstr "Open Marker infoWindows af"
+
+#: wpGoogleMaps.php:3071
+#@ wp-google-maps
+msgid "Troubleshooting Options"
+msgstr "Fejlsøgnings indstillinger"
+
+#: wpGoogleMaps.php:3073
+#@ default
+msgid "Over-ride current jQuery with version 1.8.3 (Tick this box if you are receiving jQuery related errors)"
+msgstr ""
+
+#: wpGoogleMaps.php:3077
+#@ wp-google-maps
+msgid "Use Google Maps API"
+msgstr "Brug Google Maps API"
+
+#: wpGoogleMaps.php:3088
+#@ wp-google-maps
+msgid "Lowest level of access to the map editor"
+msgstr "Laveste niveau af adgang til kort editoren"
+
+#: wpGoogleMaps.php:3102
+#@ default
+msgid "Advanced Settings"
+msgstr ""
+
+#: wpGoogleMaps.php:3103
+#@ wp-google-maps
+msgid "We suggest that you change the two fields below ONLY if you are experiencing issues when trying to save the marker XML files. Please note that both the URL and the directory should point to the same place, but in different methods. <br /><br />For example: <br /> <strong>directory</strong>: <span style='font-weight:bold; color:green;'>/usr/path/public_html</span>/wp-content/uploads/wp-google-maps/<br /> <strong>URL</strong>: <span style='font-weight:bold; color:green;'>http://www.your-site.com</span>/wp-content/uploads/wp-google-maps/"
+msgstr "Vi foreslår at du KUN ændrer de to felter nedenunder hvis du oplever problemer med at gemme markørens XML filer. Vær opmærksom på at både URLen og mappen skal føre det samme sted hen, men på forskellige måder. <br /><br />For example: <br /> <strong>directory</strong>: <span style='font-weight:bold; color:green;'>/usr/path/public_html</span>/wp-content/uploads/wp-google-maps/<br /> <strong>URL</strong>: <span style='font-weight:bold; color:green;'>http://www.your-site.com</span>/wp-content/uploads/wp-google-maps/"
+
+#: wpGoogleMaps.php:3106
+#@ wp-google-maps
+msgid "Marker data XML directory"
+msgstr "Markør data XML mappe"
+
+#: wpGoogleMaps.php:3110
+#: wpGoogleMaps.php:3119
+#@ wp-google-maps
+msgid "Default"
+msgstr "Standard"
+
+#: wpGoogleMaps.php:3115
+#@ wp-google-maps
+msgid "Marker data XML URL"
+msgstr "Markør data XML URL"
+
+#: wpGoogleMaps.php:3124
+#@ wp-google-maps
+msgid "Save Settings"
+msgstr "Gem indstillinger"
+
+#: wpGoogleMaps.php:3133
+#@ wp-google-maps
+msgid "WP Google Maps Error log"
+msgstr "WP Google Maps Fejl log"
+
+#: wpGoogleMaps.php:3134
+#@ wp-google-maps
+msgid "Having issues? Perhaps something below can give you a clue as to what's wrong. Alternatively, email this through to nick@wpgmaps.com for help!"
+msgstr "Har du problemer? måske kan noget af det nedenunder give dig et hint om hvad der er galt. Ellers kan du sende en email til nick@wpgmaps.com for at få hjælp!"
+
+#: wpGoogleMaps.php:3156
+#: wpGoogleMaps.php:3161
+#@ wp-google-maps
+msgid "My Maps"
+msgstr "Mine Kort"
+
+#: wpGoogleMaps.php:3156
+#: wpGoogleMaps.php:3228
+#@ wp-google-maps
+msgid "Add New"
+msgstr "Tilføj ny"
+
+#: wpGoogleMaps.php:3162
+#@ wp-google-maps
+msgid "Create unlimited maps"
+msgstr "Opret uendeligt mange kort"
+
+#: wpGoogleMaps.php:3162
+#@ wp-google-maps
+msgid "with the"
+msgstr "Med"
+
+#: wpGoogleMaps.php:3162
+#@ wp-google-maps
+msgid "of WP Google Maps for only"
+msgstr "af WP Google Maps for kun"
+
+#: wpGoogleMaps.php:3168
+#: wpGoogleMaps.php:3231
+#@ wp-google-maps
+msgid "Problems with the plugin? See the troubleshooting manual."
+msgstr "Problemer med pluginet? Se manualen."
+
+#: wpGoogleMaps.php:3194
+#: wpGoogleMaps.php:3481
+#@ wp-google-maps
+msgid "Width"
+msgstr "bredde"
+
+#: wpGoogleMaps.php:3195
+#: wpGoogleMaps.php:3493
+#@ wp-google-maps
+msgid "Height"
+msgstr "højde"
+
+#: wpGoogleMaps.php:3196
+#@ wp-google-maps
+msgid "Type"
+msgstr "Skrift"
+
+#: wpGoogleMaps.php:3202
+#: wpGoogleMaps.php:3521
+#@ wp-google-maps
+msgid "Roadmap"
+msgstr "Vej kort"
+
+#: wpGoogleMaps.php:3203
+#: wpGoogleMaps.php:3522
+#@ wp-google-maps
+msgid "Satellite"
+msgstr "Sattelit"
+
+#: wpGoogleMaps.php:3204
+#: wpGoogleMaps.php:3523
+#@ wp-google-maps
+msgid "Hybrid"
+msgstr "hybrid"
+
+#: wpGoogleMaps.php:3205
+#: wpGoogleMaps.php:3524
+#@ wp-google-maps
+msgid "Terrain"
+msgstr "terræn"
+
+#: wpGoogleMaps.php:3207
+#@ wp-google-maps
+msgid "Trash"
+msgstr "Papirkurv"
+
+#: wpGoogleMaps.php:3228
+#@ wp-google-maps
+msgid "My Markers"
+msgstr "mine markører"
+
+#: wpGoogleMaps.php:3252
+#: wpGoogleMaps.php:4293
+#@ wp-google-maps
+msgid "Icon"
+msgstr "ikon"
+
+#: wpGoogleMaps.php:3253
+#@ wp-google-maps
+msgid "Linked to"
+msgstr "Linket til"
+
+#: wpGoogleMaps.php:3255
+#: wpGoogleMaps.php:3693
+#: wpGoogleMaps.php:4296
+#: wpGoogleMaps.php:4315
+#@ wp-google-maps
+msgid "Address"
+msgstr "adresse"
+
+#: wpGoogleMaps.php:3256
+#@ wp-google-maps
+msgid "GPS"
+msgstr "GPS"
+
+#: wpGoogleMaps.php:3257
+#@ wp-google-maps
+msgid "Pic"
+msgstr "billede"
+
+#: wpGoogleMaps.php:3395
+#@ wp-google-maps
+msgid "Add custom icons, titles, descriptions, pictures and links to your markers with the"
+msgstr "tilføj brugerdefinerede ikoner, titler, beskrivelser, billeder og links til dine markører med"
+
+#: wpGoogleMaps.php:3395
+#: wpGoogleMaps.php:3396
+#: wpGoogleMaps.php:4026
+#: wpGoogleMaps.php:4030
+#@ wp-google-maps
+msgid "Pro Edition"
+msgstr "pro versionen"
+
+#: wpGoogleMaps.php:3395
+#@ wp-google-maps
+msgid "of this plugin for just"
+msgstr "af dette plugin for kun"
+
+#: wpGoogleMaps.php:3396
+#@ wp-google-maps
+msgid "Purchase the Pro Edition"
+msgstr "køb pro versionen"
+
+#: wpGoogleMaps.php:3396
+#@ wp-google-maps
+msgid "of WP Google Maps and save your markers to a CSV file!"
+msgstr "af WP Google Maps og gem dine markører i en CSV fil!"
+
+#: wpGoogleMaps.php:3414
+#@ wp-google-maps
+msgid "Please note"
+msgstr "Vær opmærksom på"
+
+#: wpGoogleMaps.php:3414
+#@ wp-google-maps
+msgid "We've noticed that you are using W3 Total Cache and that you have CDN enabled.<br /><br />In order for the markers to show up on your map, you need to add '<strong><em>{uploads_dir}/wp-google-maps*</strong></em>' to the '<strong>rejected files</strong>' list in the <a href='admin.php?page=w3tc_cdn#advanced'>CDN settings page</a> of W3 Total Cache"
+msgstr "Vi har lagt mærke til at du bruger W3 Total Cache og at du har CDN aktiveret. <br /><br /> For at vise dine markører på kortet, skal du tilføje '<strong><em>{uploads_dir}/wp-google-maps*</strong></em>' til '<strong>rejected files</strong>' listen under <a href='admin.php?page=w3tc_cdn#advanced'>CDN settings page</a> i W3 Total Cache"
+
+#: wpGoogleMaps.php:3473
+#@ wp-google-maps
+msgid "Short code"
+msgstr "Short Code"
+
+#: wpGoogleMaps.php:3474
+#@ wp-google-maps
+msgid "copy this into your post or page to display the map"
+msgstr "kopier dette ind i dit indlæg eller din side for at vise kortet"
+
+#: wpGoogleMaps.php:3477
+#@ wp-google-maps
+msgid "Map Name"
+msgstr "Kort navn"
+
+#: wpGoogleMaps.php:3488
+#@ wp-google-maps
+msgid "Set to 100% for a responsive map"
+msgstr "sæt til 100% for et responsivt kort"
+
+#: wpGoogleMaps.php:3498
+#@ wp-google-maps
+msgid "We recommend that you leave your height in PX. Depending on your theme, using % for the height may break your map."
+msgstr "Vi anbefaler at du sætter din højde i PX. Alt afhængig af dit tema, kan det at bruge % for højden ødelægge dit kort."
+
+#: wpGoogleMaps.php:3503
+#@ wp-google-maps
+msgid "Zoom Level"
+msgstr "Zoom level"
+
+#: wpGoogleMaps.php:3509
+#@ wp-google-maps
+msgid "Map Alignment"
+msgstr "Kort justering"
+
+#: wpGoogleMaps.php:3511
+#@ wp-google-maps
+msgid "Left"
+msgstr "Venstre"
+
+#: wpGoogleMaps.php:3512
+#@ wp-google-maps
+msgid "Center"
+msgstr "Center"
+
+#: wpGoogleMaps.php:3513
+#@ wp-google-maps
+msgid "Right"
+msgstr "Højre"
+
+#: wpGoogleMaps.php:3514
+#: wpGoogleMaps.php:3870
+#: wpGoogleMaps.php:3923
+#@ wp-google-maps
+msgid "None"
+msgstr "Ingen"
+
+#: wpGoogleMaps.php:3519
+#@ wp-google-maps
+msgid "Map type"
+msgstr "Kort type"
+
+#: wpGoogleMaps.php:3545
+#@ wp-google-maps
+msgid "Enable Directions?"
+msgstr "Aktiver vejvisning?"
+
+#: wpGoogleMaps.php:3554
+#@ wp-google-maps
+msgid "Directions Box Open by Default?"
+msgstr "Skal vejvisnings boksen åbne som standard?"
+
+#: wpGoogleMaps.php:3559
+#@ wp-google-maps
+msgid "Yes, on the left"
+msgstr "Ja, til venstre"
+
+#: wpGoogleMaps.php:3560
+#@ wp-google-maps
+msgid "Yes, on the right"
+msgstr "Ja, til højre."
+
+#: wpGoogleMaps.php:3561
+#@ wp-google-maps
+msgid "Yes, above"
+msgstr "Ja, ovenover"
+
+#: wpGoogleMaps.php:3562
+#@ wp-google-maps
+msgid "Yes, below"
+msgstr "Ja, under"
+
+#: wpGoogleMaps.php:3568
+#@ wp-google-maps
+msgid "Directions Box Width"
+msgstr "Vejvisnings boks bredde"
+
+#: wpGoogleMaps.php:3582
+#@ wp-google-maps
+msgid "Enable Store Locator"
+msgstr "aktiver butiks lokalisering"
+
+#: wpGoogleMaps.php:3591
+#@ wp-google-maps
+msgid "Show distance in"
+msgstr "vis distance i"
+
+#: wpGoogleMaps.php:3593
+#@ wp-google-maps
+msgid "Miles"
+msgstr "Mil"
+
+#: wpGoogleMaps.php:3594
+#@ wp-google-maps
+msgid "Kilometers"
+msgstr "Kilometer"
+
+#: wpGoogleMaps.php:3599
+#@ wp-google-maps
+msgid "Query String"
+msgstr "Query String"
+
+#: wpGoogleMaps.php:3605
+#@ wp-google-maps
+msgid "View"
+msgstr "Vis"
+
+#: wpGoogleMaps.php:3605
+#@ wp-google-maps
+msgid "Store Locator Documentation"
+msgstr "Butiks lokatør dokumentation"
+
+#: wpGoogleMaps.php:3613
+#@ wp-google-maps
+msgid "Enable Bicycle Layer?"
+msgstr "aktiver cykel lag?"
+
+#: wpGoogleMaps.php:3621
+#@ wp-google-maps
+msgid "Enable Traffic Layer?"
+msgstr "aktiver trafik lag?"
+
+#: wpGoogleMaps.php:3628
+#@ wp-google-maps
+msgid "Enable Weather Layer?"
+msgstr "aktiver vejr lag?"
+
+#: wpGoogleMaps.php:3635
+#@ wp-google-maps
+msgid "Show in Degrees Celsius"
+msgstr "Vis i grader Celcius"
+
+#: wpGoogleMaps.php:3636
+#@ wp-google-maps
+msgid "Show in Degrees Fahrenheit"
+msgstr "vis i Fahrenheit"
+
+#: wpGoogleMaps.php:3641
+#@ wp-google-maps
+msgid "Enable Cloud Layer?"
+msgstr "Aktiver sky lag?"
+
+#: wpGoogleMaps.php:3649
+#@ wp-google-maps
+msgid "Enable Public Transport Layer?"
+msgstr "Aktiver offentlig transport lag?"
+
+#: wpGoogleMaps.php:3661
+#@ wp-google-maps
+msgid "Get the rest of these advanced features with the Pro version for only <a href=\"http://www.wpgmaps.com/purchase-professional-version/?utm_source=plugin&utm_medium=link&utm_campaign=advanced\">$19.99 once off</a>. Support and updates included forever."
+msgstr "Få resten af disse avancerede funktioner med Pro Versionen for kun <a href=\"http://www.wpgmaps.com/purchase-professional-version/?utm_source=plugin&utm_medium=link&utm_campaign=advanced\">$19.99</a>. Support og opdateringer er inkluderet for evigt."
+
+#: wpGoogleMaps.php:3668
+#@ wp-google-maps
+msgid "Default Marker Image"
+msgstr "Standard markør billede"
+
+#: wpGoogleMaps.php:3669
+#: wpGoogleMaps.php:3947
+#: wpGoogleMaps.php:3951
+#@ wp-google-maps
+msgid "Upload Image"
+msgstr "Upload billede"
+
+#: wpGoogleMaps.php:3673
+#@ wp-google-maps
+msgid "List all Markers"
+msgstr "vis alle markører"
+
+#: wpGoogleMaps.php:3675
+#@ wp-google-maps
+msgid "List all markers below the map"
+msgstr "vis alle markører under kortet"
+
+#: wpGoogleMaps.php:3676
+#@ wp-google-maps
+msgid "Select this for the advanced listing functionality"
+msgstr "Vælg denne for den avancerede liste funktion"
+
+#: wpGoogleMaps.php:3681
+#@ wp-google-maps
+msgid "Filter by Category"
+msgstr "Filtrer efter kategori"
+
+#: wpGoogleMaps.php:3683
+#@ wp-google-maps
+msgid "Allow users to filter by category?"
+msgstr "Tillad at brugere kan filtrere efter kategori?"
+
+#: wpGoogleMaps.php:3688
+#@ wp-google-maps
+msgid "Order markers by"
+msgstr "Sorter markører efter"
+
+#: wpGoogleMaps.php:3694
+#: wpGoogleMaps.php:3944
+#: wpGoogleMaps.php:4297
+#: wpGoogleMaps.php:4316
+#@ wp-google-maps
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: wpGoogleMaps.php:3697
+#@ wp-google-maps
+msgid "Descending"
+msgstr "Faldende"
+
+#: wpGoogleMaps.php:3698
+#@ wp-google-maps
+msgid "Ascending"
+msgstr "Stigende"
+
+#: wpGoogleMaps.php:3705
+#@ wp-google-maps
+msgid "Show User's Location?"
+msgstr "Vis brugerens Lokation?"
+
+#: wpGoogleMaps.php:3719
+#@ wp-google-maps
+msgid "KML/GeoRSS URL"
+msgstr "KML/GeoRSS URL"
+
+#: wpGoogleMaps.php:3721
+#@ wp-google-maps
+msgid "The KML/GeoRSS layer will over-ride most of your map settings"
+msgstr "KML/GeoRSS laget vil overskrive de fleste af dine kort indstillinger"
+
+#: wpGoogleMaps.php:3725
+#@ wp-google-maps
+msgid "Fusion table ID"
+msgstr "Fusion Table ID"
+
+#: wpGoogleMaps.php:3727
+#@ wp-google-maps
+msgid "Read data directly from your Fusion Table."
+msgstr "Læs data direkte fra dit Fusion Table."
+
+#: wpGoogleMaps.php:3839
+#@ wp-google-maps
+msgid "Save Map"
+msgstr "Gem Kort"
+
+#: wpGoogleMaps.php:3842
+#@ wp-google-maps
+msgid "Tip: Use your mouse to change the layout of your map. When you have positioned the map to your desired location, press \"Save Map\" to keep your settings."
+msgstr "Tip: brug din mus til at ændre layoutet på dit kort. Når du har indstillet kortet til den ønskede lokation så tryk på \"Gem Kort\" for at gemme dine indstillinger."
+
+#: wpGoogleMaps.php:3849
+#: wpGoogleMaps.php:3857
+#@ wp-google-maps
+msgid "Markers"
+msgstr "Markører"
+
+#: wpGoogleMaps.php:3850
+#: wpGoogleMaps.php:3904
+#@ wp-google-maps
+msgid "Advanced markers"
+msgstr "Avancerede markører"
+
+#: wpGoogleMaps.php:3851
+#@ wp-google-maps
+msgid "Polygon"
+msgstr "Polygon"
+
+#: wpGoogleMaps.php:3861
+#: wpGoogleMaps.php:3914
+#@ wp-google-maps
+msgid "Address/GPS"
+msgstr "Address/GPS"
+
+#: wpGoogleMaps.php:3862
+#@ wp-google-maps
+msgid "Or right click on the map"
+msgstr "eller højre klik på kortet"
+
+#: wpGoogleMaps.php:3867
+#: wpGoogleMaps.php:3920
+#@ wp-google-maps
+msgid "Animation"
+msgstr "animation"
+
+#: wpGoogleMaps.php:3871
+#: wpGoogleMaps.php:3924
+#@ wp-google-maps
+msgid "Bounce"
+msgstr "Hop"
+
+#: wpGoogleMaps.php:3872
+#: wpGoogleMaps.php:3925
+#@ wp-google-maps
+msgid "Drop"
+msgstr "smid"
+
+#: wpGoogleMaps.php:3878
+#: wpGoogleMaps.php:3931
+#@ wp-google-maps
+msgid "InfoWindow open by default"
+msgstr "skal InfoWindow åbne som standard"
+
+#: wpGoogleMaps.php:3888
+#: wpGoogleMaps.php:3962
+#@ wp-google-maps
+msgid "Add Marker"
+msgstr "tilføj markør"
+
+#: wpGoogleMaps.php:3888
+#@ wp-google-maps
+msgid "Adding"
+msgstr "tilføjer"
+
+#: wpGoogleMaps.php:3889
+#@ wp-google-maps
+msgid "Save Marker"
+msgstr "gem markør"
+
+#: wpGoogleMaps.php:3889
+#@ wp-google-maps
+msgid "Saving"
+msgstr "Gemmer"
+
+#: wpGoogleMaps.php:3892
+#@ wp-google-maps
+msgid "Remember to save your marker"
+msgstr "Husk at gemme din markør"
+
+#: wpGoogleMaps.php:3908
+#@ wp-google-maps
+msgid "Add advanced markers"
+msgstr "tilføj avancerede markører"
+
+#: wpGoogleMaps.php:3908
+#@ wp-google-maps
+msgid "with the Pro version"
+msgstr "med Pro Versionen"
+
+#: wpGoogleMaps.php:3946
+#@ wp-google-maps
+msgid "Pic URL"
+msgstr "billede URL"
+
+#: wpGoogleMaps.php:3948
+#@ wp-google-maps
+msgid "Link URL"
+msgstr "Link URL"
+
+#: wpGoogleMaps.php:3950
+#@ wp-google-maps
+msgid "Custom Marker"
+msgstr "Brugerdefineret markør"
+
+#: wpGoogleMaps.php:3956
+#@ wp-google-maps
+msgid "Select"
+msgstr "Vælg"
+
+#: wpGoogleMaps.php:3974
+#@ wp-google-maps
+msgid "Add a New Polygon"
+msgstr "Tilføj en ny polygon"
+
+#: wpGoogleMaps.php:3979
+#@ wp-google-maps
+msgid "Add a New Polyline"
+msgstr "tilføj en ny polylinie"
+
+#: wpGoogleMaps.php:3991
+#: wpGoogleMaps.php:4087
+#@ wp-google-maps
+msgid "The map could not load."
+msgstr "kortet kunne ikke indlæses"
+
+#: wpGoogleMaps.php:3991
+#@ wp-google-maps
+msgid "This is normally caused by a conflict with another plugin or a JavaScript error that is preventing our plugin's Javascript from executing. Please try disable all plugins one by one and see if this problem persists."
+msgstr "Dette sker oftest pga. en konflikt med et andet plugin eller en JavaScript fejl, der forhindrer vores plugins Javascript fra at indlæse. Prøv at deaktivere alle plugins en efter en for at se om problemet stadig er der."
+
+#: wpGoogleMaps.php:4000
+#@ wp-google-maps
+msgid "Remember to save your map!"
+msgstr "Husk at gemme dit kort!"
+
+#: wpGoogleMaps.php:4014
+#@ wp-google-maps
+msgid "Your Markers"
+msgstr "Dine Markører"
+
+#: wpGoogleMaps.php:4021
+#@ default
+msgid "Add detailed information to your markers!"
+msgstr ""
+
+#: wpGoogleMaps.php:4021
+#: wpGoogleMaps.php:4025
+#: wpGoogleMaps.php:4029
+#@ wp-google-maps
+msgid "Add custom markers to your map!"
+msgstr "Tilføj en brugerdefineret markør til dit kort!"
+
+#: wpGoogleMaps.php:4022
+#@ wp-google-maps
+msgid "Add detailed information to your markers for only"
+msgstr "Tilføj detaljeret information til din markør for kun"
+
+#: wpGoogleMaps.php:4022
+#: wpGoogleMaps.php:4026
+#: wpGoogleMaps.php:4030
+#@ wp-google-maps
+msgid "Click"
+msgstr "Klik"
+
+#: wpGoogleMaps.php:4022
+#: wpGoogleMaps.php:4026
+#: wpGoogleMaps.php:4030
+#@ wp-google-maps
+msgid "here"
+msgstr "her"
+
+#: wpGoogleMaps.php:4026
+#@ wp-google-maps
+msgid "Add different marker icons, or your own icons to make your map really stand out!"
+msgstr "tilføj anderledes markør ikoner, eller dine egne ikoner for at få dit kort til at skille sig ud!"
+
+#: wpGoogleMaps.php:4030
+#@ wp-google-maps
+msgid "Allow your visitors to get directions to your markers!"
+msgstr "Tillad brugere at få vejvisning til dine markører!"
+
+#: wpGoogleMaps.php:4036
+#@ wp-google-maps
+msgid "WP Google Maps encourages you to make use of the amazing icons created by Nicolas Mollet's Maps Icons Collection"
+msgstr "WP Google Maps opfordrer dig til at gøre brug af de fantastiske ikoner lavet af Nicolas Mollet's Maps Icons Collection"
+
+#: wpGoogleMaps.php:4036
+#@ wp-google-maps
+msgid "and to credit him when doing so."
+msgstr "og at kreditere ham når du gør det."
+
+#: wpGoogleMaps.php:4062
+#@ wp-google-maps
+msgid "Edit Marker Location"
+msgstr "Rediger markør lokation"
+
+#: wpGoogleMaps.php:4071
+#@ wp-google-maps
+msgid "Marker Latitude"
+msgstr "Markør breddegrad"
+
+#: wpGoogleMaps.php:4075
+#@ wp-google-maps
+msgid "Marker Longitude"
+msgstr "Markør længdegrad"
+
+#: wpGoogleMaps.php:4080
+#@ wp-google-maps
+msgid "Save Marker Location"
+msgstr "Gem markør lokation"
+
+#: wpGoogleMaps.php:4081
+#@ wp-google-maps
+msgid "Tip: Use your mouse to change the location of the marker. Simply click and drag it to your desired location."
+msgstr "Tip: brug din mus til at ændre din markørs lokation. Bare klik og træk den til den ønskede lokation."
+
+#: wpGoogleMaps.php:4087
+#@ wp-google-maps
+msgid "This is normally caused by a conflict with another plugin or a JavaScript error that is preventing our plugin's Javascript from executing. Please try disable all plugins one by one and see if this problem persists. If it persists, please contact nick@wpgmaps.com for support."
+msgstr "Dette sker oftest pga. en konflikt med et andet plugin eller en JavaScript fejl, der forhindrer vores plugins Javascript fra at indlæse. Prøv at deaktivere alle plugins en efter en for at se om problemet stadig er der. Hvis dette er tilfældet, så kontakt venligst nick@wpgmaps.com for hjælp."
+
+#: wpGoogleMaps.php:4218
+#@ wp-google-maps
+msgid "There are too many markers to make use of the live edit function. The maximum amount for this functionality is 2000 markers. Anything more than that could crash your browser. In order to edit your markers, you would need to download the table in CSV format, edit it and re-upload it."
+msgstr "Der er for mange markører til at gøre brug af Live Edit funktionen. Det maksimale antal for at bruge denne funktion er 2000 markører. Hvis der er flere end det, kan det crashe din browser. For at redigere din markører, er du nød til at downloade tabellen i et CSV format, redigere det og uploade det igen."
+
+#: wpGoogleMaps.php:4257
+#@ wp-google-maps
+msgid "View this link"
+msgstr "Se dette link"
+
+#: wpGoogleMaps.php:4271
+#: wpGoogleMaps.php:4272
+#@ wp-google-maps
+msgid "Edit this marker"
+msgstr "Rediger denne markør"
+
+#: wpGoogleMaps.php:4273
+#@ wp-google-maps
+msgid "Delete this marker"
+msgstr "Slet denne markør"
+
+#: wpGoogleMaps.php:4298
+#@ wp-google-maps
+msgid "Image"
+msgstr "Billede"
+
+#: wpGoogleMaps.php:4449
+#@ default
+msgid "The plugin directory does not have 'write' permissions. Please enable 'write' permissions (755) for "
+msgstr ""
+
+#: wpGoogleMaps.php:4451
+#@ default
+msgid "in order for this plugin to work! Please see "
+msgstr ""
+
+#: wpGoogleMaps.php:4455
+#@ default
+msgid "for help on how to do it."
+msgstr ""
+
+#: wpGoogleMaps.php:4839
+#@ wp-google-maps
+msgid "WP Google Maps does not have write permission to the marker location directory. This is required to store marker data. Please CHMOD the folder "
+msgstr "WP Google Maps har ikke skrive rettigheder til markør lokations mappen. dette er nødvendigt for at gemme markør data. Vær venlig at CHMODe mappen"
+
+#: wpGoogleMaps.php:4839
+#@ wp-google-maps
+msgid " to 755 or 777, or change the directory in the Maps->Settings page. (Current file permissions are "
+msgstr "til 755 eller 777, eller ændre lokation på Kort->indstillinger siden. (De nuværende tilladelser er"
+

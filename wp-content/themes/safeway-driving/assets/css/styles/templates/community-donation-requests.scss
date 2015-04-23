@@ -1,0 +1,23 @@
+// ------------------------------------------------------------
+// Advertising Requests Page
+//
+// Styling specific to the content area of the Advertising Requests Page.
+// ------------------------------------------------------------
+// Slug: '/advertising-requests'
+// ------------------------------------------------------------
+
+.community-donation-requests{
+	.community-donation-requests__intro{
+		margin-top: 20px;
+		.community-donation-requests__intro__description{
+			padding-left: 0;
+			margin-top: 50px;
+
+			@media(min-width: 1200px){
+				&.right{
+					margin-left: 4%;
+				}
+			}
+		}
+	}
+}

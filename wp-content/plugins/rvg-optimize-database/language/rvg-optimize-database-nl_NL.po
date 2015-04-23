@@ -1,0 +1,565 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Optimize Database after Deleting Revisions v2.8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-20 15:00+0100\n"
+"PO-Revision-Date: 2015-03-20 15:00+0100\n"
+"Last-Translator: Rolf van Gelder <info@cagewebdev.com>\n"
+"Language-Team: CAGE <info@cagewebdev.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: C:\\Rolf\\wpmulti\\wp-content\\plugins\\rvg-optimize-"
+"database\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ rvg-optimize-database
+#: rvg-optimize-db.php:46 rvg-optimize-db.php:47 rvg-optimize-db.php:68
+#: rvg-optimize-db.php:69 rvg-optimize-db.php:91 rvg-optimize-db.php:92
+#: rvg-optimize-db.php:111 rvg-optimize-db.php:112
+msgid "Optimize Database"
+msgstr "Optimaliseer Database"
+
+# @ optimize_db
+#: rvg-optimize-db.php:150
+msgid "Optimize DB (1 click)"
+msgstr "Optimaliseer DB (1 klik)"
+
+# @ default
+#: rvg-optimize-db.php:179
+msgid "Once Weekly"
+msgstr "Eenmaal per week"
+
+# @ default
+#: rvg-optimize-db.php:309
+msgctxt "timezone date format"
+msgid "YmdGis"
+msgstr ""
+
+#: rvg-optimize-db.php:426
+msgid "Optimize Database after Deleting Revisions SETTINGS UPDATED"
+msgstr "Optimize Database after Deleting Revisions INSTELLINGEN AANGEPAST"
+
+#: rvg-optimize-db.php:428
+msgid ""
+"Click <a href=\"tools.php?page=rvg-optimize-db.php\" class=\"odb-bold"
+"\">HERE</a> to run the optimization"
+msgstr ""
+"Klik <a href=\"tools.php?page=rvg-optimize-db.php\" class=\"odb-bold\">HIER</"
+"a. om de optimalisatie te starten"
+
+#: rvg-optimize-db.php:482
+msgid "Using Optimize Database after Deleting Revisions"
+msgstr "Het gebruik van Optimize Database after Deleting Revisions"
+
+#: rvg-optimize-db.php:486
+msgid "is an one-click plugin to clean and optimize your WordPress database"
+msgstr ""
+"is een één-klik plugin om de WordPress database op te schonen en te "
+"optimaliseren"
+
+#: rvg-optimize-db.php:489
+msgid "Plugin version:"
+msgstr "Plugin versie:"
+
+#: rvg-optimize-db.php:493
+msgid "Author"
+msgstr "Auteur"
+
+#: rvg-optimize-db.php:496 rvg-optimize-db.php:830 rvg-optimize-db.php:2025
+msgid "The Netherlands"
+msgstr "Nederland"
+
+#: rvg-optimize-db.php:499
+msgid "Plugin URL:"
+msgstr "Plugin URL:"
+
+#: rvg-optimize-db.php:503
+msgid "Download URL:"
+msgstr "Download URL:"
+
+#: rvg-optimize-db.php:509
+msgid "Optimize Database after Deleting Revisions - Settings"
+msgstr "Optimize Database after Deleting Revisions - Instellingen"
+
+#: rvg-optimize-db.php:529 rvg-optimize-db.php:836
+msgid "Maximum number of - most recent - revisions to keep per post / page"
+msgstr ""
+"Maximaal aantal (meest recente) revisies die bewaard worden per bericht / "
+"pagina"
+
+#: rvg-optimize-db.php:531
+msgid "('0' means: delete <u>ALL</u> revisions)"
+msgstr "('0' betekent: verwijder <u>ALLE</u> revisies)"
+
+#: rvg-optimize-db.php:537 rvg-optimize-db.php:839
+msgid "Delete all trashed items"
+msgstr "Maak de prullenbak leeg"
+
+#: rvg-optimize-db.php:543 rvg-optimize-db.php:842
+msgid "Delete all spammed items"
+msgstr "Verwijder alle spam reacties"
+
+#: rvg-optimize-db.php:549 rvg-optimize-db.php:845
+msgid "Delete unused tags"
+msgstr "Verwijder ongebruikte tags"
+
+#: rvg-optimize-db.php:555 rvg-optimize-db.php:848
+msgid "Delete expired transients"
+msgstr "Verwijder verlopen transiënts"
+
+#: rvg-optimize-db.php:561 rvg-optimize-db.php:851
+msgid "Delete pingbacks and trackbacks"
+msgstr "Verwijder pingback en trackbacks"
+
+#: rvg-optimize-db.php:567 rvg-optimize-db.php:854
+msgid "Keep a log"
+msgstr "Gebruik een logbestand"
+
+#: rvg-optimize-db.php:573 rvg-optimize-db.php:860
+msgid "Scheduler"
+msgstr "Planner"
+
+#: rvg-optimize-db.php:577 rvg-optimize-db.php:799
+msgid "NOT SCHEDULED"
+msgstr "NIET GEPLAND"
+
+#: rvg-optimize-db.php:580
+msgid "run optimization HOURLY"
+msgstr "voer de optimalisatie ELK UUR uit"
+
+#: rvg-optimize-db.php:583
+msgid "run optimization TWICE A DAY"
+msgstr "voer de optimalisatie TWEE KEER PER DAG uit"
+
+#: rvg-optimize-db.php:586
+msgid "run optimization DAILY"
+msgstr "voer de optimalisatie DAGELIJKS uit"
+
+#: rvg-optimize-db.php:589
+msgid "run optimization WEEKLY"
+msgstr "voer de optimalisatie WEKELIJKS uit"
+
+#: rvg-optimize-db.php:597
+msgid "Time"
+msgstr "Tijd"
+
+#: rvg-optimize-db.php:604
+msgid "hrs"
+msgstr "uur"
+
+#: rvg-optimize-db.php:617
+msgid "Show '1-click' link in Admin Bar"
+msgstr "Toon de '1-klik' link in de Admin Balk"
+
+#: rvg-optimize-db.php:620 rvg-optimize-db.php:627
+msgid "(change will be visible after loading the next page)"
+msgstr "(wijziging wordt zichtbaar na het laden van de volgende pagina)"
+
+#: rvg-optimize-db.php:624
+msgid "Show an icon in the Admin Menu"
+msgstr "Toon een icon in het Admin Menu"
+
+#: rvg-optimize-db.php:640
+msgid ""
+"EXCLUDE DATABASE TABLES FROM OPTIMIZATION: <span class=\"odb-underline-red"
+"\">CHECKED</span> TABLES <span class=\"odb-underline-red\">WON'T</span> BE "
+"OPTIMIZED!</span>"
+msgstr ""
+"SLUIT DE VOLGENDE TABELLEN UIT VAN OPTIMILIZATIE: <span class=\"odb-"
+"underline-red\">AANGEVINKTE</span> TABELLEN ZULLEN <span class=\"odb-"
+"underline-red\">NIET</span> GEOPTIMALISEERD WORDEN!</span>"
+
+#: rvg-optimize-db.php:643
+msgid "check all tables"
+msgstr "vink alle tabellen aan"
+
+#: rvg-optimize-db.php:645
+msgid "uncheck all tables"
+msgstr "vink alle tabellen uit"
+
+#: rvg-optimize-db.php:647
+msgid "check all NON-WordPress tables"
+msgstr "vink alle NIET-WordPress tabellen aan"
+
+#: rvg-optimize-db.php:686
+msgid "Save Settings"
+msgstr "Bewaar instellingen"
+
+#: rvg-optimize-db.php:688
+msgid "Go To Optimizer"
+msgstr "Ga naar Optimalisatie"
+
+# @ default
+#: rvg-optimize-db.php:717
+msgctxt "timezone date format"
+msgid "G:i"
+msgstr ""
+
+#: rvg-optimize-db.php:742 rvg-optimize-db.php:749 rvg-optimize-db.php:756
+#: rvg-optimize-db.php:763 rvg-optimize-db.php:771 rvg-optimize-db.php:778
+msgid "NO"
+msgstr "NEE"
+
+#: rvg-optimize-db.php:742 rvg-optimize-db.php:749 rvg-optimize-db.php:756
+#: rvg-optimize-db.php:763 rvg-optimize-db.php:771 rvg-optimize-db.php:778
+msgid "YES"
+msgstr "JA"
+
+#: rvg-optimize-db.php:787
+msgid "ONCE HOURLY"
+msgstr "ELK UUR"
+
+#: rvg-optimize-db.php:789
+msgid "TWICE DAILY"
+msgstr "TWEEMAAL DAAGS"
+
+#: rvg-optimize-db.php:791
+msgid "ONCE DAILY"
+msgstr "DAGELIJKS"
+
+#: rvg-optimize-db.php:793
+msgid "ONCE WEEKLY"
+msgstr "WEKELIJKS"
+
+# @ rvg-optimize-database
+#: rvg-optimize-db.php:820
+msgid "Optimize your WordPress Database"
+msgstr "Optimaliseer uw WordPress Database"
+
+#: rvg-optimize-db.php:828 rvg-optimize-db.php:2025
+msgid "A WordPress Plugin by"
+msgstr "Een WordPress Plugin door"
+
+#: rvg-optimize-db.php:833
+msgid "Current settings"
+msgstr "Huidige instellingen"
+
+#: rvg-optimize-db.php:857
+msgid "Number of excluded tables"
+msgstr "Aantal uitgesloten tabellen"
+
+#: rvg-optimize-db.php:868
+msgid "Next scheduled run"
+msgstr "Volgende geplande uitvoering"
+
+#: rvg-optimize-db.php:877
+msgid "Total savings since the first run"
+msgstr "Totale besparing sinds de eerste uitvoering"
+
+#: rvg-optimize-db.php:883
+msgid "Change Settings"
+msgstr "Wijzig instellingen"
+
+#: rvg-optimize-db.php:889 rvg-optimize-db.php:1328
+msgid "View Log File"
+msgstr "Bekijk Logbestand"
+
+#: rvg-optimize-db.php:891 rvg-optimize-db.php:1330
+msgid "Delete Log File"
+msgstr "Verwijder Logbestand"
+
+#: rvg-optimize-db.php:900
+msgid "Start Optimization"
+msgstr "Start Optimalisatie"
+
+#: rvg-optimize-db.php:912
+msgid "Starting Optimization"
+msgstr "Aan het optimaliseren"
+
+# @ default
+#: rvg-optimize-db.php:919
+msgctxt "timezone date format"
+msgid "m/d/YH:i:s"
+msgstr ""
+
+#: rvg-optimize-db.php:932
+msgid "DELETING REVISIONS"
+msgstr "REVISIES AAN HET VERWIJDEREN"
+
+#: rvg-optimize-db.php:937 rvg-optimize-db.php:991 rvg-optimize-db.php:1043
+msgid "prefix"
+msgstr "prefix"
+
+#: rvg-optimize-db.php:938
+msgid "post / page"
+msgstr "bericht / pagina"
+
+#: rvg-optimize-db.php:939
+msgid "revision date"
+msgstr "revisiedatum"
+
+#: rvg-optimize-db.php:940
+msgid "revisions deleted"
+msgstr "revisies verwijderd"
+
+#: rvg-optimize-db.php:947
+msgid "total number of revisions deleted"
+msgstr "totaal aantal verwijderde revisies"
+
+#: rvg-optimize-db.php:958
+msgid "No REVISIONS found to delete"
+msgstr "Geen REVISIES gevonden om te verwijderen"
+
+#: rvg-optimize-db.php:986
+msgid "DELETING TRASHED ITEMS"
+msgstr "PRULLENBAK AAN HET LEEGMAKEN"
+
+#: rvg-optimize-db.php:992
+msgid "type"
+msgstr "type"
+
+#: rvg-optimize-db.php:993
+msgid "IP address / title"
+msgstr "IP adres / titel"
+
+#: rvg-optimize-db.php:994
+msgid "date"
+msgstr "datum"
+
+#: rvg-optimize-db.php:1009
+msgid "No TRASHED ITEMS found to delete"
+msgstr "Geen PRULLENBAK ITEMS gevonden om te verwijderen"
+
+#: rvg-optimize-db.php:1038
+msgid "DELETING SPAMMED ITEMS"
+msgstr "SPAM ITEMS AAN HET VERWIJDEREN"
+
+#: rvg-optimize-db.php:1044
+msgid "comment author"
+msgstr "plaatser van de reactie"
+
+#: rvg-optimize-db.php:1045
+msgid "comment author email"
+msgstr "email van de plaatser van de reactie"
+
+#: rvg-optimize-db.php:1046
+msgid "comment date"
+msgstr "datum van de reactie"
+
+#: rvg-optimize-db.php:1061
+msgid "No SPAMMED ITEMS found to delete"
+msgstr "Geen SPAM gevonden om te verwijderen"
+
+#: rvg-optimize-db.php:1091
+msgid "NUMBER OF UNUSED TAGS DELETED"
+msgstr "AANTAL VERWIJDERDE ONGEBRUIKTE TAGS"
+
+#: rvg-optimize-db.php:1103
+msgid "No UNUSED TAGS found to delete"
+msgstr "Geen ONGEBRUIKTE TAGS gevonden om te verwijderen"
+
+#: rvg-optimize-db.php:1133
+msgid "NUMBER OF EXPIRED TRANSIENTS DELETED"
+msgstr "AANTAL VERWIJDERDE VERLOPEN TRANSIËNTS"
+
+#: rvg-optimize-db.php:1145
+msgid "No EXPIRED TRANSIENTS found to delete"
+msgstr "Geen VERLOPEN TRANSIËNTS gevonden om te verwijderen"
+
+#: rvg-optimize-db.php:1174
+msgid "NUMBER OF PINGBACKS AND TRACKBACKS DELETED"
+msgstr "AANTAL VERWIJDERDE PINGBACKS EN TRACKBACKS"
+
+#: rvg-optimize-db.php:1186
+msgid "No PINGBACKS nor TRACKBACKS found to delete"
+msgstr "Geen PINGBACKS en TRACKBACKS gevonden om te verwijderen"
+
+#: rvg-optimize-db.php:1212
+msgid "NUMBER OF POSTMETA ORPHANS DELETED"
+msgstr "AANTAL VERWIJDERDE POSTMETA WEZEN"
+
+#: rvg-optimize-db.php:1224
+msgid "No POSTMETA ORPHANS found to delete"
+msgstr "Geen POSTMETA WEZEN gevonden om te verwijderen"
+
+#: rvg-optimize-db.php:1243
+msgid "OPTIMIZING DATABASE TABLES"
+msgstr "DATABASETABELLEN AAN HET OPTIMALISEREN"
+
+#: rvg-optimize-db.php:1248
+msgid "table name"
+msgstr "tabelnaam"
+
+#: rvg-optimize-db.php:1249
+msgid "optimization result"
+msgstr "resultaat optimalisatie"
+
+#: rvg-optimize-db.php:1250
+msgid "engine"
+msgstr "engine"
+
+#: rvg-optimize-db.php:1251
+msgid "table rows"
+msgstr "tabelrijen"
+
+#: rvg-optimize-db.php:1252
+msgid "table size"
+msgstr "tabelgrootte"
+
+#: rvg-optimize-db.php:1278 rvg-optimize-db.php:2040
+msgid "SAVINGS"
+msgstr "BESPARINGEN"
+
+#: rvg-optimize-db.php:1283
+msgid "size of the database"
+msgstr "grootte van de database"
+
+#: rvg-optimize-db.php:1286
+msgid "BEFORE optimization"
+msgstr "VOOR de optimalisatie"
+
+#: rvg-optimize-db.php:1290
+msgid "AFTER optimization"
+msgstr "NA de optimalisatie"
+
+#: rvg-optimize-db.php:1294
+msgid "SAVINGS THIS TIME"
+msgstr "DIT KEER BESPAARD"
+
+#: rvg-optimize-db.php:1298
+msgid "TOTAL SAVINGS SINCE THE FIRST RUN"
+msgstr "TOTALE BESPARING SINDS DE EERSTE UITVOERING"
+
+#: rvg-optimize-db.php:1313
+msgid "DONE"
+msgstr "KLAAR"
+
+#: rvg-optimize-db.php:1317
+msgid "Optimization took"
+msgstr "Optimalizatie duurde"
+
+#: rvg-optimize-db.php:1319
+msgid "seconds"
+msgstr "seconden"
+
+#: rvg-optimize-db.php:1943
+msgid "InnoDB table: skipped..."
+msgstr "InnoDB tabel overgeslagen..."
+
+#: rvg-optimize-db.php:1949
+msgid "<span class=\"odb-optimized\">TABLE OPTIMIZED</span>"
+msgstr "<span class=\"odb-optimized\">TABEL GEOPTIMALISEERD</span>"
+
+#: rvg-optimize-db.php:1950
+msgid "Table is already up to date"
+msgstr "Tabel is al optimaal"
+
+#: rvg-optimize-db.php:2029
+msgid "time"
+msgstr "tijd"
+
+#: rvg-optimize-db.php:2030
+msgid "deleted<br />revisions"
+msgstr "verw.<br />revisies"
+
+#: rvg-optimize-db.php:2031
+msgid "deleted<br />trash"
+msgstr "verw.<br />prullenbak items"
+
+#: rvg-optimize-db.php:2032
+msgid "deleted<br />spam"
+msgstr "verw.<br />spamitems"
+
+#: rvg-optimize-db.php:2033
+msgid "deleted<br />tags"
+msgstr "verw.<br /> tags"
+
+#: rvg-optimize-db.php:2034
+msgid "deleted<br />transients"
+msgstr "verw.<br />transiënts"
+
+#: rvg-optimize-db.php:2035
+msgid "deleted<br />pingbacks<br />trackbacks"
+msgstr "verwijderde<br />pingbacks<br />trackbacks"
+
+#: rvg-optimize-db.php:2036
+msgid "deleted<br />orphans"
+msgstr "verw.<br />wezen"
+
+# @ rvg-optimize-database
+#: rvg-optimize-db.php:2037
+msgid "nr of optimized tables"
+msgstr "aantal geoptima-<br />liseerde tabellen"
+
+#: rvg-optimize-db.php:2038
+msgid "database size BEFORE"
+msgstr "database<br />grootte<br />VOOR"
+
+#: rvg-optimize-db.php:2039
+msgid "database size AFTER"
+msgstr "database<br />grootte<br />NA"
+
+#~ msgid "<strong>TABLE OPTIMIZED</strong>"
+#~ msgstr "<strong>TABEL GEOPTIMALISEERD</strong>"
+
+#~ msgid "TABLE OPTIMIZED"
+#~ msgstr "TABEL GEOPTIMALISEERD"
+
+#~ msgid "TABLE OPTIMIZED!"
+#~ msgstr "TABEL GEOPTIMALISEERD!"
+
+# @ default
+#~ msgid "Optimize DB Options"
+#~ msgstr "Optimaliseer DB Opties"
+
+#~ msgid "Optimize Database after Deleting Revisions OPTIONS UPDATED"
+#~ msgstr "Optimize Database after Deleting Revisions OPTIES OPGESLAGEN"
+
+#~ msgid ""
+#~ "Click <a href=\"tools.php?page=rvg-optimize-db.php\" style=\"font-weight:"
+#~ "bold\">HERE</a> to run the optimization"
+#~ msgstr ""
+#~ "Klik <a href=\"tools.php?page=rvg-optimize-db.php\" style=\"font-weight:"
+#~ "bold\">HIER</a> om de optimalisatie te starten"
+
+#~ msgid "To start the optimization:"
+#~ msgstr "Om de optimalisatie te starten:"
+
+#~ msgid ""
+#~ "<strong>WP Admin Panel</strong> &raquo; <strong>Tools</strong> &raquo; "
+#~ "<strong>Optimize Database</strong>. Then click the '<strong>Start "
+#~ "Optimization</strong>'-button. Et voila!"
+#~ msgstr ""
+#~ "<strong>WP Admin Panel</strong> &raquo; <strong>Extra</strong> &raquo; "
+#~ "<strong>Optimaliseren Database</strong>. Klik dan de  '<strong>Start "
+#~ "Optimalisatie</strong>'-knop. Et voila!"
+
+#~ msgid ""
+#~ "Note: if you use the Scheduler the Optimization will run automatically!"
+#~ msgstr ""
+#~ "Opmerking: als u gebruik maakt van de Planner zal de optimalisatie "
+#~ "automatisch worden uitgevoerd"
+
+#~ msgid "Optimize Database after Deleting Revisions - Options"
+#~ msgstr "Optimize Database after Deleting Revisions - Opties"
+
+#~ msgid ""
+#~ "EXCLUDE DATABASE TABLES FROM OPTIMIZATION: <span style=\"text-decoration:"
+#~ "underline;color:#F00;\">CHECKED</span> TABLES <span style=\"text-"
+#~ "decoration:underline;color:#F00;\">WON'T</span> BE OPTIMIZED!</span>"
+#~ msgstr ""
+#~ "SLUIT DE VOLGENDE TABELLEN UIT VAN OPTIMALISATIE: <span style=\"text-"
+#~ "decoration:underline;color:#F00;\">AANGEVINKTE</span> TABELLEN WORDEN "
+#~ "<span style=\"text-decoration:underline;color:#F00;\">NIET</span> "
+#~ "GEOPTIMALISEERD!</span>"
+
+#~ msgid "Save Options"
+#~ msgstr "Bewaar Opties"
+
+#~ msgid "Current options"
+#~ msgstr "Huidige opties"
+
+#~ msgid "Change Options"
+#~ msgstr "Wijzig Opties"
+
+# @ rvg-optimize-database
+#~ msgid "Hello world!"
+#~ msgstr "HALLO WERELD!"

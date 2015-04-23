@@ -1,0 +1,23 @@
+// ------------------------------------------------------------
+// Advertising Requests Page
+//
+// Styling specific to the content area of the Advertising Requests Page.
+// ------------------------------------------------------------
+// Slug: '/advertising-requests'
+// ------------------------------------------------------------
+
+.advertising-requests{
+	.advertising-requests__intro{
+		margin-top: 20px;
+		.advertising-requests__intro__description{
+			padding-left: 0;
+			margin-top: 50px;
+
+			@media(min-width: 1200px){
+				&.right{
+					margin-left: 4%;
+				}
+			}
+		}
+	}
+}

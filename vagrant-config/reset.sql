@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS `safeway_wp`;
+CREATE DATABASE IF NOT EXISTS `safeway_wp`;

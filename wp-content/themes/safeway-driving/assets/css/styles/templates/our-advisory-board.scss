@@ -1,0 +1,36 @@
+// ------------------------------------------------------------
+// Our Advisory Board page
+//
+// Styling specific to the content area of the Our Advisory Board page.
+//
+// ------------------------------------------------------------
+// Slug: '/our-advisory-board'
+// ------------------------------------------------------------
+
+.our-advisory-board__advisors{
+	margin-top: 100px;
+
+	.our-advisory-board__advisors__advisor-single{
+		margin-top: 50px;
+		word-break: normal;
+		padding-left: 30px;
+		padding-right: 30px;
+		img{
+			display: block;
+			margin: auto;
+			margin-bottom: 30px;
+			width: 240px;
+			border-radius: 120px;
+		}
+		h6{
+			@media(max-width: 1199px){
+				text-align: center;
+
+			}
+		}
+	}
+}
+
+.our-advisory-board.full-width-background{
+
+}

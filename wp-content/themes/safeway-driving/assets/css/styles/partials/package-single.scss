@@ -1,0 +1,138 @@
+
+/* Styling for 'Packages' partials*/
+
+/////////////////////////
+// Adult Packages //////
+///////////////////////
+
+.package{
+	border: 2px solid $yellow;
+	text-align: center;
+	padding: 2% 0;
+	@media(min-width: 1199px){
+		width: 30%;
+		margin-right: .750%;
+	}
+	@media(max-width: 767px){
+		margin: 0;
+	}
+	margin: 0 5% 3% 2%;
+
+	h5{
+	}
+	h4{
+		background: $yellow;
+		color: white;
+		padding: 6% 0 6% 0;
+	}
+	p{
+		margin-top: 5px !important;
+		font-family: "Interstate Condensed";
+	    font-style: normal;
+	    font-weight: bold;
+	    letter-spacing: 1px;
+	    font-size: 1.800rem !important;
+	}
+	ul{
+		li{
+			width: 80%;
+			margin: 0 auto;
+			text-align: left;
+		}
+	}
+	button{
+		width: 90%;
+	}
+}
+
+
+
+/////////////////////////
+// Teen Packages ///////
+///////////////////////
+
+.teen-packages__packages{
+	.teen-package-single{
+		border: 2px solid $lightGray;
+		margin-bottom: 30px;
+		text-align: center;
+		padding: 8% 0;
+
+		// Style sub-title
+		h5{
+			&:nth-child(3){
+				font-size: 1.250em;
+			}
+		}
+
+		.safeway-seal{
+				display: none;
+		}
+
+		button{
+			width: 80%;
+			display: block;
+			margin: 0 auto;
+		}
+		// Styling for hour indicators section
+		.hours-indicator{
+			border-top: 2px dashed $lightGray;
+			border-bottom: 2px dashed $lightGray;
+			margin: 35px 0;
+			width: 100%;
+			position: relative;
+			height: 170px;
+
+			p{
+				margin: 0 !important;
+				font-family: 'Interstate Condensed';
+				font-size: 1.400em;
+				position: absolute;
+				left: 75px;
+
+				&:first-of-type{
+					top: 40px;
+				}
+				&:last-of-type{
+					top: 110px;
+				}
+			}
+			img{
+				position: absolute;
+				left: 15px;
+				top: 25px;
+			}
+		}
+		ul{
+			margin-bottom: 20px;
+			li{
+				text-align: left;
+				width: 80%;
+				margin: 0 auto;
+			}
+		}
+	}
+	li:nth-child(1){
+		div{
+			border: 3px solid $yellow;
+			padding-top: 70px;
+
+			// Target .hours-indicator of ONLY the first package
+			.hours-indicator{
+				background: $yellow;
+				border-top: 0;
+				border-bottom: 0;
+			}
+		}
+		.safeway-seal{
+			display: block;
+			position: absolute;
+			top: -30px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+}
+
+
+

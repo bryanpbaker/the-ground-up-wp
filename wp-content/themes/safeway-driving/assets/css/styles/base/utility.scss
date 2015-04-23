@@ -1,0 +1,65 @@
+// ------------------------------------------------------------
+// Utility
+//
+// Here are a hand full of symantic utility classes for quick
+// markup stylng.
+//
+// ------------------------------------------------------------
+
+//
+// Clearfix
+// --------------------------------------------------
+
+.clearfix {
+  @include clearfix;
+}
+
+//
+// Spacer
+// --------------------------------------------------
+
+.spacer {
+  display: block;
+  height: 30px;
+}
+
+//
+// Text Formatting
+// --------------------------------------------------
+
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+
+//
+// Flatline (Remove bottom margin)
+// --------------------------------------------------
+
+.flatline {
+  margin-bottom: 0 !important;
+}
+
+//
+// Subtle
+// --------------------------------------------------
+
+.subtle {
+  opacity: 0.6;
+}
+
+//
+// Text Colors
+// --------------------------------------------------
+
+.text-black {
+  color: $black !important;
+}
+.text-red {
+  color: $red !important;
+}

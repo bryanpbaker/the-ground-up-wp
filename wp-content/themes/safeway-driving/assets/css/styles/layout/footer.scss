@@ -1,0 +1,82 @@
+// ------------------------------------------------------------
+// Footer
+//
+// Overhead styling for the footer area of pages.
+//
+// ------------------------------------------------------------
+
+//
+// Footer
+// --------------------------------------------------
+
+.footer {
+	border-top: 1px solid black;
+	margin-bottom: 25px;
+	margin-top: 30px;
+	padding: 1%;
+
+	@media(max-width: 1199px){
+		text-align: center;
+	}
+
+	img {
+		height: 75px;
+	}
+	span {
+		font-weight: bold;
+		padding-left: 0;
+	}
+	.footer__links {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		overflow: hidden;
+		padding-left: 5%;
+
+		@media(max-width: 1199px){
+			display: none;
+		}
+
+		li {
+			margin: 4px 0 4px 15px;
+
+			line-height: 1.5em;
+			width: 20%;
+			text-align: left;
+
+			&:nth-child(5){
+				width: auto;
+			}
+			&:nth-child(2),
+			&:nth-child(6){
+				padding-left: 25px;
+			}
+			&:nth-child(6){
+				margin: 4px 0 4px 0;
+			}
+
+			a {
+				color: black;
+				font-family: sans-serif;
+				font-weight: bold !important;
+				font-size: 9px;
+				font-weight: bold;
+				text-transform: uppercase;
+				cursor: pointer;
+			}
+		}
+	}
+	.footer__social{
+		ul{
+			li{
+				display: inline-block;
+				margin: 0 3px;
+
+				img{
+					height: 32px;
+				}
+			}
+		}
+	}
+}

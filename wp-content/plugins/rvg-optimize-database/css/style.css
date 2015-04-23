@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+.odb-bold {
+	font-weight: 900;
+}
+.odb-normal {
+	font-weight: normal;
+}
+.odb-italic {
+	font-style: italic;
+}
+.odb-blue {
+	color: #00F;
+}
+.odb-wp-table {
+	font-weight: bold;
+	color: #00F;
+}
+.odb-padding-left {
+	padding-left: 8px;
+}
+.odb-border-bottom {
+	border-bottom: solid 1px #999;
+}
+.odb-border-top {
+	border-top: solid 1px #999;
+}
+.odb-separator {
+	width: 100px;
+	height: 1px;
+	border-bottom: solid 1px #999;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	margin-left: 10px;
+}
+.odb-optimizing-table {
+	margin-top: 16px;
+}
+.odb-optimized {
+	color: #00F;
+	font-weight: bold;
+}
+.odb-underline-red {
+	text-decoration: underline;
+	color: #F00;
+}
+.odb-updated {
+	position: relative;
+	left: -15px;
+}
+.odb-found {
+	font-weight: bold;
+	color: #633;
+}
+.odb-not-found {
+	font-weight: bold;
+	color: #21759B;
+}
+.odb-schedule-select {
+	font-size: inherit;
+	padding: 0px;
+	margin: 0px;
+}
+.odb-schedulehour {
+	display: none;
+}
+.odb-schedulehour-select {
+	font-size: inherit;
+}
+.odb-table-excludes {
+	margin-top: 10px;
+	border: solid 1px #CCC;
+	padding: 10px;
+}
+.odb-table-excludes td {
+	padding: 3px;
+}
