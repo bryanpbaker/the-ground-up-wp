@@ -3,6 +3,21 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
+		wiredep: {
+			task: {
+				// Point to the files that should be updated when
+				// you run grunt
+				src: [
+					'assets/css/vendors/vendors.scss', // .scss support
+					'assets/js/vendors.js' // .js support
+				],
+
+				options: {
+
+				}
+			}
+		},
+
 		clean: {
 			css: {
 				styles: ['assets/css/styles.css', 'assets/css/styles.min.css', 'assets/css/styles.css.map'],
@@ -151,6 +166,7 @@ module.exports = function(grunt) {
 	});
 
 	// These plugins provide necessary tasks
+	grunt.loadNpmTasks('grunt-wiredep');
 	grunt.loadNpmTasks('grunt-autoprefixer');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-concat');
