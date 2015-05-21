@@ -1,6 +1,6 @@
 <h2>The Bones WP</h2>
 
-<h6>This is a custom starter kit for wordpress projects. It's based on WP Multivitamin, and makes life 1000% easier for creating wordpress websites. It takes the guesswork out of template hierarchy, which can be confusing. The Bones WP utilizes Sass for the fancy stuff, Bourbon/Neat for the heavy stuff, Grunt for the tedious stuff and more.</h6>
+<h6>This is a custom starter kit for wordpress projects. It's based on <a href="https://github.com/stefanerickson/wp-multivitamin">WP Multivitamin</a>, and makes life 1000% easier for creating wordpress websites. It takes the guesswork out of template hierarchy, which can be confusing. The Bones WP utilizes Sass for the fancy stuff, Bourbon/Neat for the heavy stuff, Grunt for the tedious stuff and more.</h6>
 
 <br>
 <h3>Installation</h3>
