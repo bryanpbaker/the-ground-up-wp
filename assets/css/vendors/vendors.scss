@@ -3,5 +3,7 @@
 //
 // Import styles from plugins, libraries, etc.
 // ------------------------------------------------------------
-@import 'jquery-ui.min';
-@import 'jquery-ui.structure.min';
+@import 'bourbon/bourbon';
+@import 'base/grid-settings';
+@import 'neat/neat';
+@import 'base/base';

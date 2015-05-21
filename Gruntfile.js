@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 				dest: 'assets/js/scripts.js'
 			},
 			vendors: {
-				src: ['assets/js/vendors/*.js'],
+				src: 'assets/js/vendors/*.js',
 				dest: 'assets/js/vendors.js'
 			},
 			admin: {
