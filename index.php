@@ -1,17 +1,13 @@
-<?php
-/**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
- */
+<?php get_header(); ?>
 
-/**
- * Tells WordPress to load the WordPress theme and output it.
- *
- * @var bool
- */
-define('WP_USE_THEMES', true);
+ 	<?php if (locate_template('templates/pages/' . $post->post_name . '.php')): ?>
+      <?php get_template_part('templates/pages/' . $post->post_name); ?>
+    <?php elseif (get_field('custom_template')): ?>
+      <?php get_template_part('templates/pages/' . get_field('custom_template')); ?>
+    <?php else: ?>
+      <?php the_content(); ?>
+    <?php endif; ?>
 
-/** Loads the WordPress Environment and Template */
-require( dirname( __FILE__ ) . '/wp-blog-header.php' );
+    
+
+<?php get_footer(); ?>

@@ -1,2 +1,2 @@
-# the-bones-wp
-A starter kit for Wordpress projects. Utilizes grunt, sass, bourbon and other goodies.
+This is a custom wordpress theme, designed for Safeway Driving. 
+It utilizes Grunt, Sass and Bootstrap.
