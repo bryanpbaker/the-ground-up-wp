@@ -1,0 +1,17 @@
+{
+  "name": "the-bones-wp",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bryanpbaker/the-bones-wp",
+  "authors": [
+    "Bryan Baker"
+  ],
+  "description": "starter kit for wordpress",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
