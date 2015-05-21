@@ -1,7 +1,7 @@
 // ------------------------------------------------------------
 // Variables
 //
-// Lets define some global variables for this project.
+// Global Variables- This will make life easier for you. Change things here, they change everywhere... if you use them. The power of Sass!
 //
 // * Border Box
 // * Base Type
@@ -30,8 +30,6 @@ $font-family-base:       	  'helvetica neue' sans-serif;
 // --------------------------------------------------
 $font-size-small:         12px;
 $font-size-lead:          20px;
-$font-family-alt:         'Rokkitt', serif;
-$font-family-script:      'Wordy Diva W00 Reg', serif;
 
 //
 // Heading Type
@@ -52,11 +50,12 @@ $spacing-unit-half:       $spacing-unit-base / 2;
 //
 // Container Width
 // --------------------------------------------------
-$container-width:         932px;
+$container-width:         960px;
 
 //
-// Color Palette
-// --------------------------------------------------
+// Color Palette- Obviously change these to fit your project. 
+// You can use names like I've done here, or something like $mainColor, $secondaryColor. Whatever you like.
+// ---------------------------------------------------------------------------------------------------------
 $black:                   #000000;
 $darkGray:                #282828;
 $lightGray:               #888b8d;

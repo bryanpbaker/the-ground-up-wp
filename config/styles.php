@@ -28,15 +28,16 @@ function init_css() {
 
   }
 
-  // Define Site Fonts
-    wp_register_style(
-      $handle = 'site-fonts',
-      $src = "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://cloud.webtype.com/css/35607e05-895e-4ee9-ba34-2b056d043449.css",
-      $deps = array(),
-      $ver = null,
-      $media = 'all'
-    );
-    wp_enqueue_style('site-fonts');
+  // Use this if you want to link to a web font
+  // // Define Site Fonts
+  //   wp_register_style(
+  //     $handle = 'site-fonts',
+  //     $src = "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://cloud.webtype.com/css/35607e05-895e-4ee9-ba34-2b056d043449.css",
+  //     $deps = array(),
+  //     $ver = null,
+  //     $media = 'all'
+  //   );
+  //   wp_enqueue_style('site-fonts');
 
   // Set Admin Styles
   if (is_admin() || is_login_page()) {

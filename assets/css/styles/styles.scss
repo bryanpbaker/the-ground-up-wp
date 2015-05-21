@@ -1,13 +1,15 @@
 // ------------------------------------------------------------
 // Styles
 //
-// Lets import everything.
+// Everything from the styles directory gets imported here. 
+// Also, here's a brief explanation/cheat sheet of what all of the sub-directories are intended for.
+// You can obviously think about this any way you like, this is all about organizing the thoughts of you and your team.
 //
-// * Base
-// * Patterns
-// * Modules
-// * Layouts
-// * Pages
+// * Base- Global styles, resets, normalize, etc.
+// * Layout- Header, Footer, Sidebar- any other major 'building blocks'
+// * Partials- These are smaller chunks of code that you might want to pull into any given page. Modules, Content Blocks- 'parts' of your templates.
+// * Patterns- Elements that are used throughout the site, and need to be managed in one place. Forms, Typography, etc.
+// * Templates- Pages Templates, Single post templates.
 // ------------------------------------------------------------
 
 //
@@ -18,8 +20,7 @@
 @import "base/mixins";
 @import "base/normalize";
 @import "base/reset";
-@import "base/scaffolding";
-@import "base/utility";
+@import "base/framing";
 
 //
 // Patterns
@@ -28,11 +29,9 @@
 @import "patterns/lists";
 @import "patterns/forms";
 @import "patterns/buttons";
-@import "patterns/tabs";
 @import "patterns/modals";
 @import "patterns/blockquotes";
 @import "patterns/tooltips";
-@import "patterns/three-step-process";
 
 //
 // Layouts
@@ -42,32 +41,10 @@
 @import "layout/footer";
 
 //
-// Modules
-// --------------------------------------------------
-
-//
 // Partials
 // --------------------------------------------------
-@import "partials/content-block";
-@import "partials/faq-accordion";
-@import "partials/audiences";
-@import "partials/package-single";
-@import "partials/scroll-widget";
+
 
 //
-// Pages
+// Templates
 // --------------------------------------------------
-@import "templates/home";
-@import "templates/our-advisory-board";
-@import "templates/testimonials";
-@import "templates/join-our-team";
-@import "templates/locate-drive-sites";
-@import "templates/faqs";
-@import "templates/advertising-requests";
-@import "templates/community-donation-requests";
-@import "templates/sitemap";
-@import "templates/video-archive";
-@import "templates/adult-training";
-@import "templates/adult-corporate-packages";
-@import "templates/teen-packages";
-@import "templates/teen-driving-course";
