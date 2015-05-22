@@ -1,1 +1,7 @@
-{"version":3,"sources":["admin.css","admin/admin.scss"],"names":[],"mappings":"AAAA;;;IAGG;ACIH;EACE,6CAAA;EDFD","file":"admin.css"}
+{
+"version": 3,
+"mappings": ";;;;AAOA,YAAa;EACX,OAAO,EAAE,kCAAkC",
+"sources": ["admin/admin.scss"],
+"names": [],
+"file": "admin.css"
+}

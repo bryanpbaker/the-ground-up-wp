@@ -54,6 +54,13 @@ module.exports = function(grunt) {
 				options: {
 					livereload: true,
 				}
+			},
+			css_main: {
+				files: ['assets/css/admin.css', 'assets/css/vendors.css', 'assets/css/styles.css'],
+				tasks: 'dist-css-main',
+				options: {
+					livereload: true,
+				}
 			}
 		},
 
@@ -89,6 +96,10 @@ module.exports = function(grunt) {
 			main: {
 				src: ['assets/js/admin.js', 'assets/js/vendors.js', 'assets/js/scripts.js'],
 				dest: 'assets/js/main.js'
+			},
+			css_main: {
+				src: ['assets/css/admin.css', 'assets/css/styles.css', 'assets/css/vendors.css'],
+				dest: 'assets/css/main.css'
 			}
 		},
 
@@ -142,73 +153,47 @@ module.exports = function(grunt) {
 			options: {
 				browsers: ['last 2 version', 'ie 8', 'ie 9']
 			},
-			styles: {
-				src: 'assets/css/styles.css'
+			// styles: {
+			// 	src: 'assets/css/styles.css'
+			// },
+			// admin: {
+			// 	src: 'assets/css/admin.css'
+			// },
+			main: {
+				src: 'assets/css/main.css'
 			},
-			admin: {
-				src: 'assets/css/admin.css'
-			}
 		},
 
 		cssmin: {
-			styles: {
+			// styles: {
+			// 	expand: true,
+			// 	cwd: 'assets/css',
+			// 	src: ['styles.css'],
+			// 	dest: 'assets/css',
+			// 	ext: '.min.css'
+			// },
+			// vendors: {
+			// 	expand: true,
+			// 	cwd: 'assets/css',
+			// 	src: ['vendors.css'],
+			// 	dest: 'assets/css',
+			// 	ext: '.min.css'
+			// },
+			// admin: {
+			// 	expand: true,
+			// 	cwd: 'assets/css',
+			// 	src: ['admin.css'],
+			// 	dest: 'assets/css',
+			// 	ext: '.min.css'
+			// },
+			main: {
 				expand: true,
 				cwd: 'assets/css',
-				src: ['styles.css'],
-				dest: 'assets/css',
-				ext: '.min.css'
-			},
-			vendors: {
-				expand: true,
-				cwd: 'assets/css',
-				src: ['vendors.css'],
-				dest: 'assets/css',
-				ext: '.min.css'
-			},
-			admin: {
-				expand: true,
-				cwd: 'assets/css',
-				src: ['admin.css'],
+				src: ['main.css'],
 				dest: 'assets/css',
 				ext: '.min.css'
 			}
 		},
-
-		// watch: {
-		// 	js_scripts: {
-		// 		files: 'assets/js/scripts/**/*.js',
-		// 		tasks: 'dist-js-scripts'
-		// 	},
-		// 	js_vendors: {
-		// 		files: 'assets/js/vendors/**/*.js',
-		// 		tasks: 'dist-js-vendors'
-		// 	},
-		// 	js_admin: {
-		// 		files: 'assets/js/admin/**/*.js',
-		// 		tasks: 'dist-js-admin'
-		// 	},
-		// 	css_styles: {
-		// 		files: 'assets/css/styles/**/*.scss',
-		// 		tasks: 'dist-css-styles',
-		// 		options: {
-		// 			livereload: true,
-		// 		}
-		// 	},
-		// 	css_vendors: {
-		// 		files: 'assets/css/vendors/**/*.scss',
-		// 		tasks: 'dist-css-vendors',
-		// 		options: {
-		// 			livereload: true,
-		// 		}
-		// 	},
-		// 	css_admin: {
-		// 		files: 'assets/css/admin/**/*.scss',
-		// 		tasks: 'dist-css-admin',
-		// 		options: {
-		// 			livereload: true,
-		// 		}
-		// 	}
-		// }
 
 	});
 
@@ -241,16 +226,19 @@ module.exports = function(grunt) {
 	grunt.registerTask('dist-js-main', ['concat:main', 'uglify:main']);
 
 	// CSS distribution task
-	grunt.registerTask('dist-css', ['dist-css-styles', 'dist-css-vendors', 'dist-css-admin']);
+	grunt.registerTask('dist-css', ['dist-css-styles', 'dist-css-vendors', 'dist-css-admin', 'dist-css-main']);
 
 	// CSS Styles distribution task
-	grunt.registerTask('dist-css-styles', ['clean:css:styles', 'sass:styles', 'autoprefixer:styles', 'cssmin:styles']);
+	grunt.registerTask('dist-css-styles', ['clean:css:styles', 'sass:styles']);
 
 	// CSS Vendors distribution task
-	grunt.registerTask('dist-css-vendors', ['clean:css:vendors', 'sass:vendors', 'cssmin:vendors']);
+	grunt.registerTask('dist-css-vendors', ['clean:css:vendors', 'sass:vendors']);
 
 	// CSS Admin distribution task
-	grunt.registerTask('dist-css-admin', ['clean:css:admin', 'sass:admin', 'autoprefixer:admin', 'cssmin:admin']);
+	grunt.registerTask('dist-css-admin', ['clean:css:admin', 'sass:admin']);
+
+	// CSS Main distribution task
+	grunt.registerTask('dist-css-main', ['concat:css_main', 'autoprefixer:main', 'cssmin:main']);
 
 	// Full distribution task
 	grunt.registerTask('dist', ['dist-css', 'dist-js']);
