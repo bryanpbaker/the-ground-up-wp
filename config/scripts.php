@@ -28,46 +28,57 @@ function init_js() {
     );
     wp_enqueue_script('site-modernizr');
 
-    // Define main vendor scripts
+    // Main Concatenated Scripts
     wp_register_script(
-      $handle = 'site-vendors',
-      $src = get_bloginfo('template_directory') . '/assets/js/vendors.min.js',
-      $deps = array('site-jquery'),
-      $ver = null,
-      $in_footer = true
-    );
-    wp_enqueue_script('site-vendors');
-
-    // Define main scripts file
-    wp_register_script(
-      $handle = 'site-scripts',
-      $src = get_bloginfo('template_directory') . '/assets/js/scripts.min.js',
-      $deps = array('site-jquery', 'site-vendors'),
-      $ver = null,
-      $in_footer = true
-    );
-    wp_enqueue_script('site-scripts');
-
-  }
-
-  // Set Admin Scripts
-  if (is_admin() || is_login_page()) {
-
-    // Define main admin scripts
-    wp_register_script(
-      $handle = 'admin-scripts',
-      $src = get_bloginfo('template_directory') . '/assets/js/admin.js',
+      $handle = 'main-scripts',
+      $src = get_bloginfo('template_directory') . '/assets/js/main.min.js',
       $deps = array('jquery'),
       $ver = null,
       $in_footer = true
     );
-    wp_enqueue_script('admin-scripts');
+    wp_enqueue_script('main-scripts');
 
-  }
+
+  //   // Define main vendor scripts
+  //   wp_register_script(
+  //     $handle = 'site-vendors',
+  //     $src = get_bloginfo('template_directory') . '/assets/js/vendors.min.js',
+  //     $deps = array('site-jquery'),
+  //     $ver = null,
+  //     $in_footer = true
+  //   );
+  //   wp_enqueue_script('site-vendors');
+
+  //   // Define main scripts file
+  //   wp_register_script(
+  //     $handle = 'site-scripts',
+  //     $src = get_bloginfo('template_directory') . '/assets/js/scripts.min.js',
+  //     $deps = array('site-jquery', 'site-vendors'),
+  //     $ver = null,
+  //     $in_footer = true
+  //   );
+  //   wp_enqueue_script('site-scripts');
+
+  // }
+
+  // // Set Admin Scripts
+  // if (is_admin() || is_login_page()) {
+
+  //   // Define main admin scripts
+  //   wp_register_script(
+  //     $handle = 'admin-scripts',
+  //     $src = get_bloginfo('template_directory') . '/assets/js/admin.js',
+  //     $deps = array('jquery'),
+  //     $ver = null,
+  //     $in_footer = true
+  //   );
+  //   wp_enqueue_script('admin-scripts');
+
+  // }
 
 }
 
 // Initialize Scripts
 add_action('init', 'init_js');
-
+  
 ?>
