@@ -3,6 +3,60 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
+		auto_install: {
+			local: {},
+			subdir: {
+				options: {
+					cwd: 'subdir',
+					stdout: true,
+					stderr: true,
+					failOnError: true,
+					npm: '--production',
+					bower: true
+				}
+			}
+		},
+
+		watch: {
+			js_scripts: {
+				files: 'assets/js/scripts/*.js',
+				tasks: 'dist-js-scripts'
+			},
+			js_vendors: {
+				files: 'assets/js/vendors/*.js',
+				tasks: 'dist-js-vendors'
+			},
+			js_admin: {
+				files: 'assets/js/admin/*.js',
+				tasks: 'dist-js-admin'
+			},
+			js_main: {
+				files: ['assets/js/scripts.js', 'assets/js/vendors.js', 'assets/js/admin.js'],
+				tasks: 'dist-js-main'
+			},
+			css_styles: {
+				files: 'assets/css/styles/**/*.scss',
+				tasks: 'dist-css-styles',
+				options: {
+					livereload: true,
+				}
+			},
+			css_vendors: {
+				files: 'assets/css/vendors/**/*.scss',
+				tasks: 'dist-css-vendors',
+				options: {
+					livereload: true,
+				}
+			},
+			css_admin: {
+				files: 'assets/css/admin/**/*.scss',
+				tasks: 'dist-css-admin',
+				options: {
+					livereload: true,
+				}
+			}
+		},
+
 		clean: {
 			css: {
 				styles: ['assets/css/styles.css', 'assets/css/styles.min.css', 'assets/css/styles.css.map'],
@@ -21,7 +75,7 @@ module.exports = function(grunt) {
 				separator: ';',
 			},
 			scripts: {
-				src: ['assets/js/scripts/*.js'],
+				src: 'assets/js/scripts/*.js',
 				dest: 'assets/js/scripts.js'
 			},
 			vendors: {
@@ -29,9 +83,13 @@ module.exports = function(grunt) {
 				dest: 'assets/js/vendors.js'
 			},
 			admin: {
-				src: ['assets/js/admin/*.js'],
+				src: 'assets/js/admin/*.js',
 				dest: 'assets/js/admin.js'
 			},
+			main: {
+				src: ['assets/js/admin.js', 'assets/js/vendors.js', 'assets/js/scripts.js'],
+				dest: 'assets/js/main.js'
+			}
 		},
 
 		uglify: {
@@ -46,6 +104,10 @@ module.exports = function(grunt) {
 			admin: {
 				src: 'assets/js/admin.js',
 				dest: 'assets/js/admin.min.js'
+			},
+			main: {
+				src: 'assets/js/main.js',
+				dest: 'assets/js/main.min.js'
 			}
 		},
 
@@ -112,41 +174,41 @@ module.exports = function(grunt) {
 			}
 		},
 
-		watch: {
-			js_scripts: {
-				files: 'assets/js/scripts/**/*.js',
-				tasks: 'dist-js-scripts'
-			},
-			js_vendors: {
-				files: 'assets/js/vendors/**/*.js',
-				tasks: 'dist-js-vendors'
-			},
-			js_admin: {
-				files: 'assets/js/admin/**/*.js',
-				tasks: 'dist-js-admin'
-			},
-			css_styles: {
-				files: 'assets/css/styles/**/*.scss',
-				tasks: 'dist-css-styles',
-				options: {
-					livereload: true,
-				}
-			},
-			css_vendors: {
-				files: 'assets/css/vendors/**/*.scss',
-				tasks: 'dist-css-vendors',
-				options: {
-					livereload: true,
-				}
-			},
-			css_admin: {
-				files: 'assets/css/admin/**/*.scss',
-				tasks: 'dist-css-admin',
-				options: {
-					livereload: true,
-				}
-			}
-		}
+		// watch: {
+		// 	js_scripts: {
+		// 		files: 'assets/js/scripts/**/*.js',
+		// 		tasks: 'dist-js-scripts'
+		// 	},
+		// 	js_vendors: {
+		// 		files: 'assets/js/vendors/**/*.js',
+		// 		tasks: 'dist-js-vendors'
+		// 	},
+		// 	js_admin: {
+		// 		files: 'assets/js/admin/**/*.js',
+		// 		tasks: 'dist-js-admin'
+		// 	},
+		// 	css_styles: {
+		// 		files: 'assets/css/styles/**/*.scss',
+		// 		tasks: 'dist-css-styles',
+		// 		options: {
+		// 			livereload: true,
+		// 		}
+		// 	},
+		// 	css_vendors: {
+		// 		files: 'assets/css/vendors/**/*.scss',
+		// 		tasks: 'dist-css-vendors',
+		// 		options: {
+		// 			livereload: true,
+		// 		}
+		// 	},
+		// 	css_admin: {
+		// 		files: 'assets/css/admin/**/*.scss',
+		// 		tasks: 'dist-css-admin',
+		// 		options: {
+		// 			livereload: true,
+		// 		}
+		// 	}
+		// }
 
 	});
 
@@ -161,18 +223,22 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-auto-install');
 
 	// JS distribution task
-	grunt.registerTask('dist-js', ['dist-js-scripts', 'dist-js-vendors', 'dist-js-admin']);
+	grunt.registerTask('dist-js', ['dist-js-scripts', 'dist-js-vendors', 'dist-js-admin', 'dist-js-main']);
 
 	// JS Scripts distribution task
-	grunt.registerTask('dist-js-scripts', ['clean:js:scripts', 'concat:scripts', 'uglify:scripts']);
+	grunt.registerTask('dist-js-scripts', ['clean:js:scripts', 'concat:scripts']);
 
 	// JS Vendors distribution task
-	grunt.registerTask('dist-js-vendors', ['clean:js:vendors', 'concat:vendors', 'uglify:vendors']);
+	grunt.registerTask('dist-js-vendors', ['clean:js:vendors', 'concat:vendors']);
 
 	// JS Admin distribution task
-	grunt.registerTask('dist-js-admin', ['clean:js:admin', 'concat:admin', 'uglify:admin']);
+	grunt.registerTask('dist-js-admin', ['clean:js:admin', 'concat:admin']);
+
+	// JS Main distribution task
+	grunt.registerTask('dist-js-main', ['concat:main', 'uglify:main']);
 
 	// CSS distribution task
 	grunt.registerTask('dist-css', ['dist-css-styles', 'dist-css-vendors', 'dist-css-admin']);
