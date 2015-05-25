@@ -74,7 +74,7 @@ function init_js() {
   //   );
   //   wp_enqueue_script('admin-scripts');
 
-  // }
+  }
 
 }
 
