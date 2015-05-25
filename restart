@@ -1,1 +1,0 @@
-vagrant ssh -c "sudo bash /vagrant/vagrant-config/startup.sh"

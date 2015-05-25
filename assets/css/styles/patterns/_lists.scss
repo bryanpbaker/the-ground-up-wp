@@ -1,0 +1,41 @@
+// ------------------------------------------------------------
+// Lists
+//
+// Custom list elements.
+//
+// * List Spacing
+// * List Checks
+// ------------------------------------------------------------
+
+//
+// List Spacing
+// --------------------------------------------------
+
+ul{
+	margin: 0;
+	line-height: 1.833rem !important;
+
+	li{
+		list-style: none;;
+	}
+} 
+
+.list{
+	line-height: 1.833rem !important;
+	
+	li{
+		list-style: none;
+		margin-bottom: 8px;
+		background: url('../img/CUSTOM-BULLET') no-repeat 1px 1px transparent;
+		padding: 0 0 15px 25px;
+	}
+}
+
+.list--alt{
+	li{
+		background: url('../img/CUSTOM-BULLET') no-repeat 1px 1px transparent;
+	}
+}
+
+
+
