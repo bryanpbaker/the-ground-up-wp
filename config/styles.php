@@ -6,26 +6,35 @@ function init_css() {
   // Set Site Styles
   if (!is_admin() && !is_login_page()) {
 
-    // Define vendor styles
+    // // Define vendor styles
+    // wp_register_style(
+    //   $handle = 'site-vendors',
+    //   $src = get_bloginfo('template_directory') . '/assets/css/vendors.min.css',
+    //   $deps = array(),
+    //   $ver = null,
+    //   $media = 'all'
+    // );
+    // wp_enqueue_style('site-vendors');
+
+    // // Define main styles
+    // wp_register_style(
+    //   $handle = 'site-styles',
+    //   $src = get_bloginfo('template_directory') . '/assets/css/styles.min.css',
+    //   $deps = array('site-vendors'),
+    //   $ver = null,
+    //   $media = 'all'
+    // );
+    // wp_enqueue_style('site-styles');
+
+    // Define Styles
     wp_register_style(
-      $handle = 'site-vendors',
-      $src = get_bloginfo('template_directory') . '/assets/css/vendors.min.css',
-      $deps = array(),
+      $handle = 'main-styles',
+      $src = get_bloginfo('template_directory') . '/assets/css/main.min.css',
+      $deps = '',
       $ver = null,
       $media = 'all'
     );
-    wp_enqueue_style('site-vendors');
-
-    // Define main styles
-    wp_register_style(
-      $handle = 'site-styles',
-      $src = get_bloginfo('template_directory') . '/assets/css/styles.min.css',
-      $deps = array('site-vendors'),
-      $ver = null,
-      $media = 'all'
-    );
-    wp_enqueue_style('site-styles');
-
+    wp_enqueue_style('main-styles');
   }
 
   // Use this if you want to link to a web font

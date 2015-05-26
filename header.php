@@ -15,6 +15,13 @@
 </head>
 <body <?php body_class(); ?>>
 
-	<header class="header container-fluid">
-		
+	<header class="header">
+		<h1>Testing!</h1>
+		<nav>
+			<ul>
+				<li>About</li>
+				<li>My Work</li>
+				<li>Contact</li>
+			</ul>
+		</nav>
 	</header>

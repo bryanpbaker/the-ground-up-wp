@@ -4,14 +4,14 @@
 
 blockquote {
   background: transparent;
-  border-left: 10px solid $yellow;
+  border-left: 10px solid white;
   padding: 0.5em 10px;
   margin-top: 45px;
   quotes: "\201C""\201D""\2018""\2019";
   font-size: 1.000rem
 }
 blockquote:before {
-  color: $darkGray;
+  color: #333;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -19,7 +19,7 @@ blockquote:before {
   vertical-align: -0.4em;
 }
 blockquote:after {
-  color: $darkGray;
+  color: #333;
   content: close-quote;
   font-size: 2em;
   line-height: 0.1em;

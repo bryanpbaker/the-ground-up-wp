@@ -22,7 +22,6 @@
   padding: 16px 35px;
   border-radius: 0;
   color: $black;
-  background: $yellow;
   @media(max-width: 991px){
     margin-bottom: 35px !important;
   }
@@ -33,7 +32,6 @@
   &:focus {
     text-decoration: none;
     outline: none;
-    background: $lightGray;
     color: black;
   }
 
@@ -50,7 +48,6 @@
 
 .button--alt {
  
-  color: $yellow;
   background: $black;
 
   /* UI States */
@@ -59,8 +56,7 @@
   &:focus {
     text-decoration: none;
     outline: none;
-    background: $lightGray;
-    color: $yellow;
+
   }
 }
 

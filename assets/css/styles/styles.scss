@@ -12,6 +12,9 @@
 // * Templates- Pages Templates, Single post templates.
 // ------------------------------------------------------------
 
+// @import '../vendors/bourbon/bourbon';
+// @import '../vendors/neat/neat';
+
 //
 // Base
 // --------------------------------------------------
@@ -48,3 +51,4 @@
 //
 // Templates
 // --------------------------------------------------
+@import "templates/home";
