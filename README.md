@@ -4,8 +4,8 @@
 
 <br>
 <h3>Installation</h3>
-<h6>Install this like you would any other Wordpress Theme. Drop it into your 'themes' directory and activate it through the dashboard.</h6>
+<h6>Install this like you would a Wordpress Theme. Drop it into your 'themes' directory and activate it through the dashboard. But be aware... this is <em>not</em> a Wordpress theme. This is a starter kit for building out projects.</h6>
 
 
 <h3>Getting Started</h3>
-<h6>There is a small learning curve with this starter kit. I hesitate to call this a 'theme' because it's so much more than that. Below is a brief index of how you do the things you want to do.</h6>
+<h6>There is a small learning curve with this starter kit. Below is a brief index of how you do the things you want to do.</h6>
