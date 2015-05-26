@@ -11,8 +11,7 @@ module.exports = function(grunt) {
 					stdout: true,
 					stderr: true,
 					failOnError: true,
-					npm: '--production',
-					bower: true
+					npm: '--production'
 				}
 			}
 		},
@@ -36,27 +35,27 @@ module.exports = function(grunt) {
 			},
 			css_styles: {
 				files: 'assets/css/styles/**/*.scss',
-				tasks: 'dist-css-styles',
+				tasks: 'dist-css-main',
 				options: {
 					livereload: true,
 				}
 			},
 			css_vendors: {
 				files: 'assets/css/vendors/**/*.scss',
-				tasks: 'dist-css-vendors',
+				tasks: 'dist-css-main',
 				options: {
 					livereload: true,
 				}
 			},
 			css_admin: {
 				files: 'assets/css/admin/**/*.scss',
-				tasks: 'dist-css-admin',
+				tasks: 'dist-css-main',
 				options: {
 					livereload: true,
 				}
 			},
 			css_main: {
-				files: ['assets/css/admin.css', 'assets/css/vendors.css', 'assets/css/styles.css'],
+				files: ['assets/css/main.scss'],
 				tasks: 'dist-css-main',
 				options: {
 					livereload: true,
@@ -66,9 +65,7 @@ module.exports = function(grunt) {
 
 		clean: {
 			css: {
-				styles: ['assets/css/styles.css', 'assets/css/styles.min.css', 'assets/css/styles.css.map'],
-				vendors: ['assets/css/vendors.css', 'assets/css/vendors.min.css', 'assets/css/vendors.css.map'],
-				admin: ['assets/css/admin.css', 'assets/css/admin.min.css', 'assets/css/admin.css.map']
+				main: ['assets/css/main.css', 'assets/css/main.min.css', 'assets/css/main.css.map']
 			},
 			js: {
 				scripts: ['assets/js/scripts.js', 'assets/js/scripts.min.js'],
@@ -97,10 +94,10 @@ module.exports = function(grunt) {
 				src: ['assets/js/admin.js', 'assets/js/vendors.js', 'assets/js/scripts.js'],
 				dest: 'assets/js/main.js'
 			},
-			css_main: {
-				src: ['assets/css/admin.css', 'assets/css/styles.css', 'assets/css/vendors.css'],
-				dest: 'assets/css/main.css'
-			}
+			// css_main: {
+			// 	src: ['assets/css/admin.css','assets/css/vendors.css','assets/css/styles.css'],
+			// 	dest: 'assets/css/main.css'
+			// }
 		},
 
 		uglify: {
@@ -123,28 +120,12 @@ module.exports = function(grunt) {
 		},
 
 		sass: {
-			styles: {
+			main_css: {
 				options: {
 					style: 'expanded'
 				},
 				files: {
-					'assets/css/styles.css': 'assets/css/styles/styles.scss'
-				}
-			},
-			vendors: {
-				options: {
-					style: 'expanded'
-				},
-				files: {
-					'assets/css/vendors.css': 'assets/css/vendors/vendors.scss'
-				}
-			},
-			admin: {
-				options: {
-					style: 'expanded'
-				},
-				files: {
-					'assets/css/admin.css': 'assets/css/admin/admin.scss'
+					'assets/css/main.css': 'assets/css/main.scss'
 				}
 			}
 		},
@@ -153,39 +134,12 @@ module.exports = function(grunt) {
 			options: {
 				browsers: ['last 2 version', 'ie 8', 'ie 9']
 			},
-			// styles: {
-			// 	src: 'assets/css/styles.css'
-			// },
-			// admin: {
-			// 	src: 'assets/css/admin.css'
-			// },
 			main: {
 				src: 'assets/css/main.css'
 			},
 		},
 
 		cssmin: {
-			// styles: {
-			// 	expand: true,
-			// 	cwd: 'assets/css',
-			// 	src: ['styles.css'],
-			// 	dest: 'assets/css',
-			// 	ext: '.min.css'
-			// },
-			// vendors: {
-			// 	expand: true,
-			// 	cwd: 'assets/css',
-			// 	src: ['vendors.css'],
-			// 	dest: 'assets/css',
-			// 	ext: '.min.css'
-			// },
-			// admin: {
-			// 	expand: true,
-			// 	cwd: 'assets/css',
-			// 	src: ['admin.css'],
-			// 	dest: 'assets/css',
-			// 	ext: '.min.css'
-			// },
 			main: {
 				expand: true,
 				cwd: 'assets/css',
@@ -226,19 +180,10 @@ module.exports = function(grunt) {
 	grunt.registerTask('dist-js-main', ['concat:main', 'uglify:main']);
 
 	// CSS distribution task
-	grunt.registerTask('dist-css', ['dist-css-styles', 'dist-css-vendors', 'dist-css-admin', 'dist-css-main']);
-
-	// CSS Styles distribution task
-	grunt.registerTask('dist-css-styles', ['clean:css:styles', 'sass:styles']);
-
-	// CSS Vendors distribution task
-	grunt.registerTask('dist-css-vendors', ['clean:css:vendors', 'sass:vendors']);
-
-	// CSS Admin distribution task
-	grunt.registerTask('dist-css-admin', ['clean:css:admin', 'sass:admin']);
+	grunt.registerTask('dist-css', ['dist-css-main']);
 
 	// CSS Main distribution task
-	grunt.registerTask('dist-css-main', ['concat:css_main', 'autoprefixer:main', 'cssmin:main']);
+	grunt.registerTask('dist-css-main', ['clean:css:main', 'sass:main_css', 'autoprefixer:main', 'cssmin:main']);
 
 	// Full distribution task
 	grunt.registerTask('dist', ['dist-css', 'dist-js']);
