@@ -35,6 +35,11 @@ function init_css() {
       $media = 'all'
     );
     wp_enqueue_style('main-styles');
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 57c9c00a422c2fabd0ae320b09f31f63a163a12a
   }
 
   // Use this if you want to link to a web font
