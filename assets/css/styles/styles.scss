@@ -16,25 +16,12 @@
 // @import '../vendors/neat/neat';
 
 //
-// Base
-// --------------------------------------------------
-@import "base/fonts";
-@import "base/variables";
-@import "base/mixins";
-@import "base/normalize";
-@import "base/reset";
-@import "base/framing";
-
-//
 // Patterns
 // --------------------------------------------------
-@import "patterns/typography";
-@import "patterns/lists";
-@import "patterns/forms";
-@import "patterns/buttons";
 @import "patterns/modals";
 @import "patterns/blockquotes";
 @import "patterns/tooltips";
+@import "patterns/typography";
 
 //
 // Layouts

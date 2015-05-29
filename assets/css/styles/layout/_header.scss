@@ -8,12 +8,3 @@
 // Header
 // --------------------------------------------------
 
-
-.header{
-	@include outer-container;
-	background: $blue;
-	nav{
-		@include span-columns(8);
-		background: red;
-	}
-}
