@@ -8,3 +8,11 @@
 // Header
 // --------------------------------------------------
 
+header{
+	@include outer-container;
+	background: orange;
+	nav{
+		@include span-columns(9);
+		background: blue;
+	}
+}
