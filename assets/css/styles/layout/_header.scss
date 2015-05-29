@@ -8,3 +8,6 @@
 // Header
 // --------------------------------------------------
 
+header{
+	@include outer-container;
+}
