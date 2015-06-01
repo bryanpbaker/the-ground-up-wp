@@ -14,3 +14,9 @@
   <li>cd into your <strong><em>theme</em></strong> directory (the one you just created with this repo) and run 'grunt'.</li>
   <li>Start creating</li>
   <p>(if you're interested in knowing what grunt is doing for you in this project, read below.)</p>
+
+
+<h5>Notes</h5>
+<ul>
+<li><h6>You are required to have Sass installed, in order for this project to work.</h6></li>
+</ul>
