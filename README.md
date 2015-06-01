@@ -18,5 +18,5 @@
 
 <h5>Notes</h5>
 <ul>
-<li><h6>You are required to have Sass installed, in order for this project to work.</h6></li>
+<li><h6>You are required to have <a href="http://thesassway.com/beginner/getting-started-with-sass-and-compass">Sass installed</a>, in order for this project to work.</h6></li>
 </ul>
