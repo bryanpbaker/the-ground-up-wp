@@ -4,12 +4,8 @@
 // Import SCSS Files from Admin, Styles and Vendors- along with dependencies.
 // ------------------------------------------------------------
 
-@import 'base/normalize';
-@import 'bourbon/bourbon';
-@import 'base/grid-settings';
-@import 'neat/neat';
-@import 'base/base';
-@import 'base/typography';
+@import 'bootstrap/bootstrap';
+
 
 @import 'admin/admin';
 @import 'vendors/vendors';
