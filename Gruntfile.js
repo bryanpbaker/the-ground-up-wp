@@ -33,6 +33,13 @@ module.exports = function(grunt) {
 				files: ['assets/js/scripts.js', 'assets/js/vendors.js', 'assets/js/admin.js'],
 				tasks: 'dist-js-main'
 			},
+			css_bootstrap: {
+				files: 'assets/css/bootstrap.scss',
+				tasks: 'dist-css-bootstrap',
+				options: {
+					livereload: true,
+				}
+			},
 			css_styles: {
 				files: 'assets/css/styles/**/*.scss',
 				tasks: 'dist-css-main',
@@ -65,6 +72,7 @@ module.exports = function(grunt) {
 
 		clean: {
 			css: {
+				bootstrap: ['assets/css/bootstrap.css', 'assets/css/bootstrap.min.css', 'assets/css/bootstrap.css.map'],
 				main: ['assets/css/main.css', 'assets/css/main.min.css', 'assets/css/main.css.map']
 			},
 			js: {
@@ -93,11 +101,7 @@ module.exports = function(grunt) {
 			main: {
 				src: ['assets/js/admin.js', 'assets/js/vendors.js', 'assets/js/scripts.js'],
 				dest: 'assets/js/main.js'
-			},
-			// css_main: {
-			// 	src: ['assets/css/admin.css','assets/css/vendors.css','assets/css/styles.css'],
-			// 	dest: 'assets/css/main.css'
-			// }
+			}
 		},
 
 		uglify: {
@@ -127,6 +131,14 @@ module.exports = function(grunt) {
 				files: {
 					'assets/css/main.css': 'assets/css/main.scss'
 				}
+			},
+			bootstrap_css: {
+				options: {
+					style: 'expanded'
+				},
+				files: {
+					'assets/css/bootstrap.css': 'assets/css/bootstrap.scss'
+				}
 			}
 		},
 
@@ -137,6 +149,9 @@ module.exports = function(grunt) {
 			main: {
 				src: 'assets/css/main.css'
 			},
+			bootstrap: {
+				src: 'assets/css/bootstrap.css'
+			},
 		},
 
 		cssmin: {
@@ -146,7 +161,14 @@ module.exports = function(grunt) {
 				src: ['main.css'],
 				dest: 'assets/css',
 				ext: '.min.css'
-			}
+			},
+			bootstrap: {
+				expand: true,
+				cwd: 'assets/css',
+				src: ['bootstrap.css'],
+				dest: 'assets/css',
+				ext: '.min.css'
+			},
 		},
 
 	});
@@ -180,7 +202,10 @@ module.exports = function(grunt) {
 	grunt.registerTask('dist-js-main', ['concat:main', 'uglify:main']);
 
 	// CSS distribution task
-	grunt.registerTask('dist-css', ['dist-css-main']);
+	grunt.registerTask('dist-css', ['dist-css-bootstrap', 'dist-css-main']);
+
+	// CSS Bootstrap distribution task
+	grunt.registerTask('dist-css-bootstrap', ['clean:css:bootstrap', 'sass:bootstrap_css', 'autoprefixer:bootstrap', 'cssmin:bootstrap']);
 
 	// CSS Main distribution task
 	grunt.registerTask('dist-css-main', ['clean:css:main', 'sass:main_css', 'autoprefixer:main', 'cssmin:main']);
