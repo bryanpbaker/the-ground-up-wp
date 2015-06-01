@@ -18,6 +18,6 @@
 
 <h5>Notes</h5>
 <ul>
-<li>In our project, Grunt is used to watch your sass/js files- clean, concatenate, compile and minify everything for production.</li>
+<li><h6>In our project, Grunt is used to watch your sass/js files- clean, concatenate, compile and minify everything for production.</h6></li>
 <li><h6>You are required to have <a href="http://thesassway.com/beginner/getting-started-with-sass-and-compass" target="_blank">Sass installed</a>, in order for this project to work.</h6></li>
 </ul>
