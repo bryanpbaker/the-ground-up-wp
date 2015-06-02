@@ -4,6 +4,11 @@
 // Import SCSS Files from Admin, Styles and Vendors- along with dependencies.
 // ------------------------------------------------------------
 
+// Import Bootstrap Variables and Mixins so we can use them throughout the project
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins/';
+
+
 @import 'admin/admin';
 @import 'vendors/vendors';
 @import 'styles/styles';

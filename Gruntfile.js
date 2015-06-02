@@ -27,14 +27,14 @@ module.exports = function(grunt) {
 			},
 			js_admin: {
 				files: 'assets/js/admin/*.js',
-				tasks: 'dist-js-admin'
+				tasks: ['dist-js-admin', 'dist-js-main']
 			},
 			js_main: {
 				files: ['assets/js/scripts.js', 'assets/js/vendors.js', 'assets/js/admin.js'],
 				tasks: 'dist-js-main'
 			},
 			css_bootstrap: {
-				files: 'assets/css/bootstrap.scss',
+				files: ['assets/css/bootstrap.scss', 'assets/css/bootstrap/*.scss'],
 				tasks: 'dist-css-bootstrap',
 				options: {
 					livereload: true,
