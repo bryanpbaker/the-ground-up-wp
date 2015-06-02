@@ -67,6 +67,14 @@ module.exports = function(grunt) {
 				options: {
 					livereload: true,
 				}
+			},
+			// This re-compiles bootstrap when you change or add a custom variable
+			custom_globals: {
+				files: 'assets/css/styles/custom-globals/_custom-variables.scss',
+				tasks: 'dist-css-bootstrap',
+				options: {
+					livereload: true,
+				}
 			}
 		},
 

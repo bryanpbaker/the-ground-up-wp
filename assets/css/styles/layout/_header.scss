@@ -8,6 +8,24 @@
 // Header
 // --------------------------------------------------
 
-h1{
-	color: black;
+header{
+	overflow: hidden;
+	height:50px;
+	background: $dark;
+	color: $white;
+
+	.branding{
+		height: 100%;
+		position: relative;
+
+		h1{
+			font-size: 1.750em;
+			margin: 0;
+			line-height: 50px;
+		}
+	}
+	nav{
+		height: 100%;
+		line-height: 50px;
+	}
 }

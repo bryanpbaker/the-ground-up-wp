@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------
+// Custom Variables
+//
+// Custom variables for use in this project only.
+// 
+//
+// FYI: 
+// These are imported at the bottom of the bootstrap/_variables.scss 
+// file so that these styles override Bootstrap.
+// -----------------------------------------------------------------
+
+
+//== Colors
+//
+//## Custom colors, specific to this project.
+
+$blue:					#A7C1C9;					
+$orange:				#FF8F36;
+$black:					#000000;
+$dark:					#282728;
+$white:					#ffffff;
+
+
+
+//== Links
+//
+//## Textual link styling
+$link-color:			$white;
