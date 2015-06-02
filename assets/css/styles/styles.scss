@@ -12,8 +12,11 @@
 // * Templates- Pages Templates, Single post templates.
 // ------------------------------------------------------------
 
-// @import '../vendors/bourbon/bourbon';
-// @import '../vendors/neat/neat';
+//
+// Custom Globals
+// --------------------------------------------------
+@import "custom-globals/custom-variables";
+@import "custom-globals/typography";
 
 //
 // Patterns
@@ -21,7 +24,6 @@
 @import "patterns/modals";
 @import "patterns/blockquotes";
 @import "patterns/tooltips";
-@import "patterns/typography";
 
 //
 // Layouts
