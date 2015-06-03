@@ -10,19 +10,39 @@
 // -----------------------------------------------------------------
 
 
+
+//== Breakpoints
+//
+//## Points at which layout changes, responding to different devices.
+
+// Small screen / tablet
+$screen-sm-min:              768px !default;
+
+// Medium screen / desktop
+$screen-md-min:              992px !default;
+
+// Large screen / wide desktop
+$screen-lg-min:              1200px !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
+
+
 //== Colors
 //
 //## Custom colors, specific to this project.
 
-$blue:					#A7C1C9;					
-$orange:				#FF8F36;
-$black:					#000000;
-$dark:					#282728;
+$blue:					#19B5FE;					
+$green:					#6CD446;
+$black:					#333333;
 $white:					#ffffff;
 
 
 
 //== Links
 //
-//## Textual link styling
+//## Textual link variables
 $link-color:			$white;
