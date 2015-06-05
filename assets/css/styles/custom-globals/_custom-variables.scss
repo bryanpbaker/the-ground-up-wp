@@ -35,9 +35,10 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 //
 //## Custom colors, specific to this project.
 
-$blue:					#19B5FE;					
-$green:					#6CD446;
+$blue:					#84A9C0;					
+$green:					#3FDD4D;
 $black:					#333333;
+$gray:					#4D5061; 
 $white:					#ffffff;
 
 
@@ -46,3 +47,21 @@ $white:					#ffffff;
 //
 //## Textual link variables
 $link-color:			$white;
+
+
+
+//== Buttons
+//
+//## Button Variables
+$button-border-color:	$white;
+$button-bg-color:		transparent;
+$button-font:			'futura-pt';
+$button-type-color:		$white;
+$button-hover-type:		$green;
+
+
+//== Typography
+//
+//## Typography Variables
+$heading-font:			'futura-pt';
+$body-font:				'ff-tisa-web-pro'

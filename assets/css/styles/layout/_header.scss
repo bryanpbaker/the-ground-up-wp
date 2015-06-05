@@ -9,23 +9,15 @@
 // --------------------------------------------------
 
 header{
-	overflow: hidden;
-	height:50px;
-	background: $dark;
+	background: transparent;
 	color: $white;
+	height:40px;
+	overflow: hidden;
 
 	.branding{
-		height: 100%;
-		position: relative;
 
-		h1{
-			font-size: 1.750em;
-			margin: 0;
-			line-height: 50px;
-		}
 	}
 	nav{
-		height: 100%;
-		line-height: 50px;
+
 	}
 }

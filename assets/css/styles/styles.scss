@@ -17,6 +17,8 @@
 // --------------------------------------------------
 @import "custom-globals/custom-variables";
 @import "custom-globals/typography";
+@import "custom-globals/scaffolding";
+@import "custom-globals/custom-mixins";
 
 //
 // Patterns
@@ -24,6 +26,7 @@
 @import "patterns/modals";
 @import "patterns/blockquotes";
 @import "patterns/tooltips";
+@import "patterns/buttons";
 
 //
 // Patterns
@@ -48,3 +51,5 @@
 // Templates
 // --------------------------------------------------
 @import "templates/home";
+@import "templates/intro-block";
+@import "templates/about-block";

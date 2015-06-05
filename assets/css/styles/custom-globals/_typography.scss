@@ -12,6 +12,7 @@
 //Base Font Size
 body{
 	font-size: 14px;
+	transition: all .33s ease-in-out;
 	@media(min-width: $screen-sm-min) and (max-width: $screen-sm-max){
 		font-size: 16px;
 	}
@@ -25,10 +26,12 @@ body{
 
 
 p{
+	font-family: $body-font;
 	font-size: 1em;
 }
 
 h1{
+	font-family: $heading-font;
 	font-size: 3em;
 	@media(min-width: $screen-sm-min) and (max-width: $screen-sm-max){
 		font-size: 3.25em;
@@ -41,6 +44,7 @@ h1{
 	}
 }
 h2{
+	font-family: $heading-font;
 	font-size: 2.25em;
 	@media(min-width: $screen-sm-min) and (max-width: $screen-sm-max){
 		font-size: 2.50em;
@@ -53,15 +57,21 @@ h2{
 	}
 }
 h3{
+	font-family: $heading-font;
 	font-size: 2em;
 }
 h4{
+	font-family: $heading-font;
 	font-size: 1.75em;
 }
 h5{
+	font-family: $heading-font;
 	font-size: 1.50em;
+	margin: 30px auto;
+	text-transform: uppercase;
 }
 h6{
+	font-family: $heading-font;
 	font-size: 1.25em;
 }
 
