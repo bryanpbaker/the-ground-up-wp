@@ -25,6 +25,17 @@ function init_css() {
       $media = 'all'
     );
     wp_enqueue_style('main-styles');
+
+    // Font Awesome
+    wp_register_style(
+      $handle = 'font-awesome',
+      $src = "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css",
+      $deps = '',
+      $ver = null,
+      $media = 'all'
+    );
+    wp_enqueue_style('font-awesome');
+    
   }
 
 
