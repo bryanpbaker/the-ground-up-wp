@@ -1,4 +1,4 @@
-<h2>Sq1 Wordpress Starter</h2>
+<h2>The Ground Up WP</h2>
 <small> Code Owner: Bryan Baker</small>
 
 <h6>This is a custom starter kit for wordpress projects. It's based on <a href="https://github.com/stefanerickson/wp-multivitamin" target="_blank">WP Multivitamin</a>, and makes life 1000% easier for creating wordpress websites. It takes the guesswork out of template hierarchy, which can be confusing. wordpress-starter utilizes Sass for the fancy stuff, Bootstrap-Sass for the heavy stuff, Grunt for the tedious stuff and more.</h6>
@@ -12,7 +12,7 @@
 <ol>
   <li>Clone/download the repo.</li>
   <li>Add the contents to your wp-content/themes folder- it may be preferable to rename the folder to a new theme/project name that you want to use.</li>
-  <li>CD into your <strong><em>theme</em></strong> directory (the one you just created with this repo) and run 'grunt'.</li>
+  <li>CD into your <strong><em>theme</em></strong> directory (the one you just created with this repo) and run <code>npm install</code> (you may be required to use <code>sudo</code>), once that's finished run <code>grunt</code>.</li>
   <li>Start creating</li>
   <p>(if you're interested in knowing what grunt is doing for you in this project, read below.)</p>
 

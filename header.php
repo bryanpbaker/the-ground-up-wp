@@ -21,8 +21,3 @@
 <!--[if !IE]>-->
 <body <?php body_class(); ?>>
 <!--<![endif]-->
-
-
-	<header class="header container-fluid" style="background: red;">
-		<h1>Hello world!</h1>
-	</header>
