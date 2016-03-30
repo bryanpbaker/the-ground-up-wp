@@ -28,6 +28,16 @@ function init_js() {
     );
     wp_enqueue_script('site-modernizr');
 
+    // Vendor Concatenated Scripts
+    wp_register_script(
+      $handle = 'vendor-scripts',
+      $src = get_bloginfo('template_directory') . '/assets/js/vendors.min.js',
+      $deps = array('site-jquery'),
+      $ver = null,
+      $in_footer = true
+    );
+    wp_enqueue_script('vendor-scripts');
+
     // Main Concatenated Scripts
     wp_register_script(
       $handle = 'main-scripts',

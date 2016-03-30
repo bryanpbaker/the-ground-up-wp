@@ -21,19 +21,15 @@
 @import "custom-globals/custom-mixins";
 
 //
-// Patterns
+// Elements
 // --------------------------------------------------
-@import "patterns/modals";
-@import "patterns/blockquotes";
-@import "patterns/tooltips";
-@import "patterns/buttons";
-
-//
-// Patterns
-// --------------------------------------------------
-@import "patterns/modals";
-@import "patterns/blockquotes";
-@import "patterns/tooltips";
+@import "elements/modals";
+@import "elements/blockquotes";
+@import "elements/tooltips";
+@import "elements/buttons";
+@import "elements/modals";
+@import "elements/blockquotes";
+@import "elements/tooltips";
 
 //
 // Layouts
@@ -50,6 +46,4 @@
 //
 // Templates
 // --------------------------------------------------
-@import "templates/home";
-@import "templates/intro-block";
-@import "templates/about-block";
+@import "templates/placeholder";

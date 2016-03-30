@@ -1,6 +1,5 @@
 
 	<footer class="footer container">
-
 	</footer>
 
 

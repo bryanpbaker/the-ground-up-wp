@@ -1,6 +1,7 @@
-<h2>The Ground Up</h2>
+<h2>Sq1 Wordpress Starter</h2>
+<small> Code Owner: Bryan Baker</small>
 
-<h6>This is a custom starter kit for wordpress projects. It's based on <a href="https://github.com/stefanerickson/wp-multivitamin" target="_blank">WP Multivitamin</a>, and makes life 1000% easier for creating wordpress websites. It takes the guesswork out of template hierarchy, which can be confusing. The Ground Up WP utilizes Sass for the fancy stuff, Bootstrap-Sass for the heavy stuff, Grunt for the tedious stuff and more.</h6>
+<h6>This is a custom starter kit for wordpress projects. It's based on <a href="https://github.com/stefanerickson/wp-multivitamin" target="_blank">WP Multivitamin</a>, and makes life 1000% easier for creating wordpress websites. It takes the guesswork out of template hierarchy, which can be confusing. wordpress-starter utilizes Sass for the fancy stuff, Bootstrap-Sass for the heavy stuff, Grunt for the tedious stuff and more.</h6>
 
 <br>
 <h3>Installation</h3>
