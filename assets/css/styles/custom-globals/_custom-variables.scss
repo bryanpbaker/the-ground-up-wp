@@ -54,14 +54,14 @@ $link-color:			$white;
 //
 //## Button Variables
 $button-border-color:	$white;
-$button-bg-color:		transparent;
-$button-font:			'futura-pt';
+$button-bg-color:		$blue;
+$button-font:			sans-serif;
 $button-type-color:		$white;
 $button-hover-type:		$green;
 
 
 //== Typography
 //
-//## Typography Variables
-$heading-font:			'futura-pt';
-$body-font:				'ff-tisa-web-pro'
+//## Typography $blues
+$heading-font:			sans-serif;
+$body-font:				sans-serif;

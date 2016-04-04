@@ -7,11 +7,11 @@
 // Load functions in '/config'
 require_once('config/loader.php');
 
-// Admin bar resets
+// Admin bar resets- Remove top admin bar by default
 // add_action('init', 'remove_admin_bar');
 // add_action('init', 'remove_admin_bar_links');
 
-// // Post type resets
+// // Post type resets- Disable Posts/Comments
 // // add_action('init', 'globally_disable_posts');
 // add_action('init', 'globally_disable_comments');
 

@@ -3,3 +3,6 @@ assets/css/*.css
 assets/css/*.min.css
 assets/js/*.js
 .sass-cache
+*.map
+
+*.map
